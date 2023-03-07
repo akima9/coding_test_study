@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="단어 뒤집기">
-      <change afterPath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex01_05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="특정 문자 뒤집기">
+      <change afterPath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex01_06.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,20 +52,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
 }</component>
-  <component name="RunManager" selected="애플리케이션.ex01_05">
-    <configuration name="ex01_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex01_01" />
-      <module name="coding_test_java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="codingTestStudy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="애플리케이션.ex01_06">
     <configuration name="ex01_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex01_02" />
       <module name="coding_test_java.main" />
@@ -119,8 +105,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ex01_06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex01_06" />
+      <module name="coding_test_java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codingTestStudy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.ex01_06" />
         <item itemvalue="애플리케이션.ex01_05" />
         <item itemvalue="애플리케이션.ex01_04" />
         <item itemvalue="애플리케이션.ex01_03" />
@@ -164,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678146788785</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="특정 문자 뒤집기">
+      <created>1678147721833</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678147721833</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -172,6 +179,7 @@
     <MESSAGE value="문장 속 단어" />
     <MESSAGE value="푸시 테스트" />
     <MESSAGE value="단어 뒤집기" />
-    <option name="LAST_COMMIT_MESSAGE" value="단어 뒤집기" />
+    <MESSAGE value="특정 문자 뒤집기" />
+    <option name="LAST_COMMIT_MESSAGE" value="특정 문자 뒤집기" />
   </component>
 </project>
