@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="회문 문자열">
-      <change afterPath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex01_08.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="유효한 팰린드롬">
+      <change afterPath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex01_09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex01_10.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,33 +51,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ex01_08">
-    <configuration name="ex01_04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex01_04" />
-      <module name="coding_test_java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="codingTestStudy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ex01_05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex01_05" />
-      <module name="coding_test_java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="codingTestStudy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ex01_10">
     <configuration name="ex01_06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex01_06" />
       <module name="coding_test_java.main" />
@@ -116,8 +91,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ex01_09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex01_09" />
+      <module name="coding_test_java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codingTestStudy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex01_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex01_10" />
+      <module name="coding_test_java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codingTestStudy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ex01_10" />
+        <item itemvalue="Application.ex01_09" />
         <item itemvalue="Application.ex01_08" />
       </list>
     </recent_temporary>
@@ -180,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678712069066</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="유효한 팰린드롬">
+      <created>1678798134170</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678798134170</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -191,6 +201,7 @@
     <MESSAGE value="특정 문자 뒤집기" />
     <MESSAGE value="중복문자제거" />
     <MESSAGE value="회문 문자열" />
-    <option name="LAST_COMMIT_MESSAGE" value="회문 문자열" />
+    <MESSAGE value="유효한 팰린드롬" />
+    <option name="LAST_COMMIT_MESSAGE" value="유효한 팰린드롬" />
   </component>
 </project>
