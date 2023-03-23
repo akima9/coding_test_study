@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="피보나치 수열">
-      <change afterPath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex02_05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="소수(에라토스테네스 체)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex02_06.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,20 +49,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="애플리케이션.ex02_05">
-    <configuration name="ex02_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex02_01" />
-      <module name="coding_test_java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="codingTestStudy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="애플리케이션.ex02_06">
     <configuration name="ex02_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex02_02" />
       <module name="coding_test_java.main" />
@@ -116,13 +102,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ex02_06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex02_06" />
+      <module name="coding_test_java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codingTestStudy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.ex02_06" />
         <item itemvalue="애플리케이션.ex02_05" />
         <item itemvalue="애플리케이션.ex02_04" />
         <item itemvalue="애플리케이션.ex02_03" />
         <item itemvalue="애플리케이션.ex02_02" />
-        <item itemvalue="애플리케이션.ex02_01" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679467493412</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="소수(에라토스테네스 체)">
+      <created>1679546442142</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1679546442142</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -251,6 +257,7 @@
     <MESSAGE value="보이는 학생" />
     <MESSAGE value="가위 바위 보" />
     <MESSAGE value="피보나치 수열" />
-    <option name="LAST_COMMIT_MESSAGE" value="피보나치 수열" />
+    <MESSAGE value="소수(에라토스테네스 체)" />
+    <option name="LAST_COMMIT_MESSAGE" value="소수(에라토스테네스 체)" />
   </component>
 </project>
