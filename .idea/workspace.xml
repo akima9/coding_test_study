@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="봉우리">
-      <change afterPath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex02_11.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="임시반장 정하기">
+      <change afterPath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex02_12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,13 +52,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="ex02_07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex02_07" />
+  <component name="RunManager" selected="Application.ex02">
+    <configuration name="ex01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.ex01" />
       <module name="coding_test_java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="codingTestStudy.*" />
+          <option name="PATTERN" value="programmers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,25 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex02_08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex02_08" />
+    <configuration name="ex02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.ex02" />
       <module name="coding_test_java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="codingTestStudy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ex02_09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex02_09" />
-      <module name="coding_test_java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="codingTestStudy.*" />
+          <option name="PATTERN" value="programmers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,13 +105,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ex02_12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex02_12" />
+      <module name="coding_test_java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codingTestStudy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.ex02_11" />
-        <item itemvalue="애플리케이션.ex02_10" />
-        <item itemvalue="애플리케이션.ex02_09" />
-        <item itemvalue="애플리케이션.ex02_08" />
-        <item itemvalue="애플리케이션.ex02_07" />
+        <item itemvalue="Application.ex02" />
+        <item itemvalue="Application.ex01" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679618662991</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="임시반장 정하기">
+      <created>1679964081637</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1679964081637</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -299,6 +305,7 @@
     <MESSAGE value="등수구하기" />
     <MESSAGE value="격자판 최대합" />
     <MESSAGE value="봉우리" />
-    <option name="LAST_COMMIT_MESSAGE" value="봉우리" />
+    <MESSAGE value="임시반장 정하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="임시반장 정하기" />
   </component>
 </project>
