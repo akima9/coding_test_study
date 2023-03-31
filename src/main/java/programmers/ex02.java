@@ -1,33 +1,24 @@
 package programmers;
 
-import java.util.Arrays;
-import java.util.List;
-
 public class ex02 {
     public static void main(String[] args) {
         System.out.println(solution(new String[]{"i", "water", "drink"}, new String[]{"want", "to"}, new String[]{"i", "want", "to", "drink", "water"}));
     }
 
-    // 아직 못 푼 문제임
     static public String solution(String[] cards1, String[] cards2, String[] goal) {
         String answer = "Yes";
-        List<String> goalList = Arrays.asList(goal);
-        int prev = 0;
-        for (int i = 0; i < cards1.length; i++) {
-            int index = goalList.indexOf(cards1[i]);
-            if (i == 0) {
-                prev = index;
-            } else {
-                if (prev > index) answer = "No";
-            }
-        }
 
-        for (int i = 0; i < cards2.length; i++) {
-            int index = goalList.indexOf(cards2[i]);
-            if (i == 0) {
-                prev = index;
-            } else {
-                if (prev > index) answer = "No";
+        int cards1Index = 0; // cards1 배열의 인덱스
+        int cards2Index = 0; // cards2 배열의 인덱스
+
+        // goal 배열의 값을 하나씩 꺼내서 cards1, cards2와 비교
+        for (String element : goal) {
+            if (cards1Index < cards1.length && cards1[cards1Index].equals(element)) { // cards1에 있는 경우 cards1 인덱스 1 증가
+                cards1Index++;
+            } else if (cards2Index < cards2.length && cards2[cards2Index].equals(element)) { // cards2에 있는 경우 cards2 인덱스 1 증가
+                cards2Index++;
+            } else { // cards1, cards2 배열에서 현재 가장 앞의 인덱스에서 goal의 단어가 없으면 goal을 못 만들기 때문에 answer에 No를 담는다.
+                answer = "No";
             }
         }
         return answer;

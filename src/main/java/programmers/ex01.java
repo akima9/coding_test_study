@@ -8,21 +8,30 @@ public class ex01 {
         System.out.println(solution(10, 3, 2));
     }
 
+    /**
+     * 약수를 구할 때는 제곱근을 활용하자.
+     */
     static public int solution(int number, int limit, int power) {
         int answer = 0;
-        for (int i = 1; i <= number; i++) {
-            int cnt = 0;
 
+        // 1 ~ number까지 반복
+        for (int i = 1; i <= number; i++) {
+            int cnt = 0; // i의 약수의 개수
+
+            // 1 ~ i의 제곱근까지 반복
             for (int j = 1; j <= Math.sqrt(i); j++) {
-                if (j == Math.sqrt(i)) {
+                if (j == Math.sqrt(i)) { // i가 제곱근과 같으면 전체 약수의 가운데 있는 약수기 때문에 1 증가 시킴
                     cnt += 1;
-                } else if (i % j == 0) {
+                } else if (i % j == 0) { // 제곱근까지만 반복하면 전체 약수의 절반만 구하기 때문에 2씩 증가 시킴
                     cnt += 2;
                 }
             }
-            if (cnt > limit) cnt = power;
-            answer += cnt;
+
+            if (cnt > limit) cnt = power; // 약수의 개수가 limit 보다 크면 약수의 개수를 power로 대체 시킴
+
+            answer += cnt; // 1 ~ number의 각 약수의 합
         }
+
         return answer;
     }
 }

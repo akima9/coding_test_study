@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="임시반장 정하기">
-      <change afterPath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex02_12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex02.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="기사단원의 무기">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programmers/ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/programmers/ex01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programmers/ex02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/programmers/ex02.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -281,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679964081637</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="기사단원의 무기">
+      <created>1680172276420</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1680172276420</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -306,6 +312,7 @@
     <MESSAGE value="격자판 최대합" />
     <MESSAGE value="봉우리" />
     <MESSAGE value="임시반장 정하기" />
-    <option name="LAST_COMMIT_MESSAGE" value="임시반장 정하기" />
+    <MESSAGE value="기사단원의 무기" />
+    <option name="LAST_COMMIT_MESSAGE" value="기사단원의 무기" />
   </component>
 </project>
