@@ -1,29 +1,55 @@
 package codingTestStudy;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
+/**
+ * 못품!!
+ */
 public class ex02_12 {
-    public static void main(String[] args){
-        Scanner in = new Scanner(System.in);
-        int N = in.nextInt();
-        int M = in.nextInt();
-        int[][] score = new int[M][N];
-        for (int i = 0; i < M; i++) {
-            for (int j = 0; j < N; j++) {
-                score[i][j] = in.nextInt();
-            }
-            System.out.println("Arrays.toString(score[i]) = " + Arrays.toString(score[i]));
-        }
+    static int N, M, ans;
+    static int[] mentor, mentee;
+    static boolean[] used;
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        N = sc.nextInt();
+        M = sc.nextInt();
+        mentor = new int[M];
+        mentee = new int[M];
+        used = new boolean[N];
 
         for (int i = 0; i < M; i++) {
+            mentor[i] = sc.nextInt() - 1; // index 0부터 시작하도록 하기 위해 -1
             for (int j = 0; j < N; j++) {
-                
+                int num = sc.nextInt() - 1;
+                if (num == mentor[i]) { // 멘토는 제외하기 위해 continue
+                    continue;
+                }
+                mentee[i] = num;
+                break;
             }
         }
 
+        dfs(0, 0);
 
+        System.out.println(ans);
+    }
 
+    static void dfs(int m, int cnt) {
+        if (cnt == N / 2) {
+            ans++;
+            return;
+        }
+
+        for (int i = m; i < M; i++) {
+            if (!used[mentor[i]]) {
+                used[mentor[i]] = true;
+                used[mentee[i]] = true;
+                dfs(i + 1, cnt + 1);
+                used[mentor[i]] = false;
+                used[mentee[i]] = false;
+            }
+        }
     }
 }
 //12. 멘토링
