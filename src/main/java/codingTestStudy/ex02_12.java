@@ -2,54 +2,66 @@ package codingTestStudy;
 
 import java.util.Scanner;
 
-/**
- * 못품!!
- */
 public class ex02_12 {
-    static int N, M, ans;
-    static int[] mentor, mentee;
-    static boolean[] used;
-
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        N = sc.nextInt();
-        M = sc.nextInt();
-        mentor = new int[M];
-        mentee = new int[M];
-        used = new boolean[N];
+        Scanner in = new Scanner(System.in);
 
+        int N = in.nextInt(); // 학생 수
+        int M = in.nextInt(); // 테스트 수
+        int[][] score = new int[M][N];
         for (int i = 0; i < M; i++) {
-            mentor[i] = sc.nextInt() - 1; // index 0부터 시작하도록 하기 위해 -1
             for (int j = 0; j < N; j++) {
-                int num = sc.nextInt() - 1;
-                if (num == mentor[i]) { // 멘토는 제외하기 위해 continue
-                    continue;
-                }
-                mentee[i] = num;
-                break;
+                score[i][j] = in.nextInt();
             }
         }
 
-        dfs(0, 0);
-
-        System.out.println(ans);
+        System.out.println(solution(N, M, score));
     }
 
-    static void dfs(int m, int cnt) {
-        if (cnt == N / 2) {
-            ans++;
-            return;
-        }
+    /**
+     *
+     * @param N 학생수
+     * @param M 테스트수
+     * @param score 학생들의 등수
+     * @return 멘토, 멘티 짝지을 수 있는 경우의 수
+     */
+    private static int solution(int N, int M, int[][] score) {
+        int answer = 0;
+        // 1 ~ N 까지 반복하면서 멘토를 한명씩 특정한다.
+        for (int mentor = 1; mentor <= N; mentor++) {
+            // 1 ~ N 까지 반복하면서 멘티를 한명씩 특정한다.
+            for (int mentee = 1; mentee <= N; mentee++) {
+                // 멘토와 멘티가 같은 학생을 특정한 경우 Pass
+                if (mentor == mentee) continue;
 
-        for (int i = m; i < M; i++) {
-            if (!used[mentor[i]]) {
-                used[mentor[i]] = true;
-                used[mentee[i]] = true;
-                dfs(i + 1, cnt + 1);
-                used[mentor[i]] = false;
-                used[mentee[i]] = false;
+                int cnt = 0; // 모든 테스트에서 짝이 가능한 개수
+
+                for (int k = 0; k < M; k++) {
+                    int mentorRank = 0; // 멘토의 등수
+                    int menteeRank = 0; // 멘티의 등수
+
+                    for (int l = 0; l < N; l++) {
+                        if (score[k][l] == mentor) {
+                            mentorRank = l;
+                        }
+                        if (score[k][l] == mentee) {
+                            menteeRank = l;
+                        }
+                    }
+
+                    // 멘토가 멘티보다 앞 등수이면 짝 가능
+                    if (mentorRank < menteeRank) {
+                        cnt++;
+                    }
+                }
+
+                // 짝 가능 개수가 테스트 수와 같다면 모든 테스트에서 짝가능
+                if (cnt == M) {
+                    answer++;
+                }
             }
         }
+        return answer;
     }
 }
 //12. 멘토링
