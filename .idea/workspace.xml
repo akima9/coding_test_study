@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="봉우리">
-      <change beforePath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex02_12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex02_12.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="멘토링 (해결)">
+      <change beforePath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex03_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex03_01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ex02_12">
+  <component name="RunManager">
     <configuration name="ex02_12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex02_12" />
       <module name="coding_test_java.main" />
@@ -309,11 +309,17 @@
       <option name="project" value="LOCAL" />
       <updated>1680247212992</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="멘토링 (해결)">
+      <created>1680310593967</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1680310593967</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="문자 찾기" />
     <MESSAGE value="문장 속 단어" />
     <MESSAGE value="푸시 테스트" />
     <MESSAGE value="단어 뒤집기" />
@@ -338,6 +344,7 @@
     <MESSAGE value="카드 뭉치" />
     <MESSAGE value="덧칠하기" />
     <MESSAGE value="두 배열 합치기" />
-    <option name="LAST_COMMIT_MESSAGE" value="두 배열 합치기" />
+    <MESSAGE value="멘토링 (해결)" />
+    <option name="LAST_COMMIT_MESSAGE" value="멘토링 (해결)" />
   </component>
 </project>

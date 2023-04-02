@@ -1,6 +1,6 @@
 package codingTestStudy;
 
-import java.util.Arrays;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ex03_01 {
@@ -19,34 +19,37 @@ public class ex03_01 {
             B[i] = in.nextInt();
         }
 
-        System.out.println(solution(N, A, M, B));
-
+        for (int e : solution(N, A, M, B)) {
+            System.out.print(e + " ");
+        }
     }
 
-    private static String solution(int N, int[] A, int M, int[] B) {
-        int[] total = new int[N + M]; // A와 B 배열의 크기 합만큼의 int 배열 생성
+    private static ArrayList<Integer> solution(int N, int[] A, int M, int[] B) {
+        int pA = 0;
+        int pB = 0;
+        ArrayList<Integer> total = new ArrayList<>();
 
-        // A 배열을 total 배열에 담는다.
-        for (int i = 0; i < N; i++) {
-            total[i] = A[i];
+        while (pA < N && pB < M) {
+            if (A[pA] < B[pB]) {
+                total.add(A[pA]);
+                pA++;
+            } else {
+                total.add(B[pB]);
+                pB++;
+            }
         }
 
-        // B 배열을 total 배열에 담는다.
-        // 인덱스 번호는 A 배열을 담았기 때문에 total[N] 부터 담는다.
-        for (int i = 0; i < M; i++) {
-            total[N + i]= B[i];
+        while (pA < N) {
+            total.add(A[pA]);
+            pA++;
         }
 
-        // total 배열 오름차순 정렬
-        Arrays.sort(total);
+        while (pB < M) {
+            total.add(B[pB]);
+            pB++;
+        }
 
-        // 필요 없는 문자들을 제거한다.
-        String answer = Arrays.toString(total)
-                .replaceAll("\\[", "")
-                .replaceAll("\\]", "")
-                .replaceAll(",", "");
-
-        return answer;
+        return total;
     }
 }
 //1. 두 배열 합치기
