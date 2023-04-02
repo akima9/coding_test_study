@@ -1,12 +1,9 @@
 package codingTestStudy;
 
 import java.util.ArrayList;
-import java.util.Collections;
+import java.util.Arrays;
 import java.util.Scanner;
 
-/**
- * 시간초과
- */
 public class ex03_02 {
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
@@ -21,19 +18,32 @@ public class ex03_02 {
             B[i] = in.nextInt();
         }
 
-        System.out.println(solution(A, B));
 
+        ArrayList<Integer> answer = solution(N, A, M, B);
+        for (int e : answer) {
+            System.out.print(e + " ");
+        }
     }
 
-    private static String solution(int[] A, int[] B) {
-        ArrayList<Integer> integers = new ArrayList<>();
-        for (int a : A) {
-            for (int b : B) {
-                if (a == b) integers.add(a);
+    private static ArrayList<Integer> solution(int N, int[] A, int M, int[] B) {
+        Arrays.sort(A);
+        Arrays.sort(B);
+
+        int pA = 0;
+        int pB = 0;
+        ArrayList<Integer> answer = new ArrayList<>();
+
+        while (pA < N && pB < M) {
+            if (A[pA] < B[pB]) {
+                pA++;
+            } else if (A[pA] > B[pB]) {
+                pB++;
+            } else {
+                answer.add(A[pA]);
+                pA++;
+                pB++;
             }
         }
-        Collections.sort(integers);
-        String answer = integers.toString().replaceAll("\\[","").replaceAll("\\]","").replaceAll(",","");
         return answer;
     }
 }
