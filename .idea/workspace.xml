@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="공통원소 구하기">
-      <change afterPath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex03_03.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="최대 매출">
+      <change afterPath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex03_04.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ex03_03">
+  <component name="RunManager" selected="Application.ex03_04">
     <configuration name="ex02_12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex02_12" />
       <module name="coding_test_java.main" />
@@ -102,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.ex04" />
+    <configuration name="ex03_04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex03_04" />
       <module name="coding_test_java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.*" />
+          <option name="PATTERN" value="codingTestStudy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ex03_04" />
         <item itemvalue="Application.ex03_03" />
         <item itemvalue="Application.ex02_12" />
         <item itemvalue="Application.ex03_02" />
         <item itemvalue="Application.ex03_01" />
-        <item itemvalue="Application.ex04" />
       </list>
     </recent_temporary>
   </component>
@@ -330,11 +330,17 @@
       <option name="project" value="LOCAL" />
       <updated>1680398508058</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="최대 매출">
+      <created>1680520669788</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1680520669788</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="푸시 테스트" />
     <MESSAGE value="단어 뒤집기" />
     <MESSAGE value="특정 문자 뒤집기" />
     <MESSAGE value="중복문자제거" />
@@ -359,6 +365,7 @@
     <MESSAGE value="멘토링 (해결)" />
     <MESSAGE value="두 배열 합치기" />
     <MESSAGE value="공통원소 구하기" />
-    <option name="LAST_COMMIT_MESSAGE" value="공통원소 구하기" />
+    <MESSAGE value="최대 매출" />
+    <option name="LAST_COMMIT_MESSAGE" value="최대 매출" />
   </component>
 </project>
