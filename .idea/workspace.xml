@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="연속된 자연수의 합">
-      <change afterPath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex03_06.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="최대 길이 연속부분수열">
+      <change afterPath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex04_01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,20 +49,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ex03_06">
-    <configuration name="ex02_12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex02_12" />
-      <module name="coding_test_java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="codingTestStudy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="ex03_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex03_03" />
       <module name="coding_test_java.main" />
@@ -115,13 +102,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ex04_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex04_01" />
+      <module name="coding_test_java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codingTestStudy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ex04_01" />
         <item itemvalue="Application.ex03_06" />
         <item itemvalue="Application.ex03_05" />
         <item itemvalue="Application.ex03_04" />
         <item itemvalue="Application.ex03_03" />
-        <item itemvalue="Application.ex02_12" />
       </list>
     </recent_temporary>
   </component>
@@ -358,11 +358,17 @@
       <option name="project" value="LOCAL" />
       <updated>1680609094881</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="최대 길이 연속부분수열">
+      <created>1680616368213</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1680616368213</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="중복문자제거" />
     <MESSAGE value="회문 문자열" />
     <MESSAGE value="유효한 팰린드롬" />
     <MESSAGE value="문자열 압축" />
@@ -387,6 +393,7 @@
     <MESSAGE value="최대 매출" />
     <MESSAGE value="연속 부분수열" />
     <MESSAGE value="연속된 자연수의 합" />
-    <option name="LAST_COMMIT_MESSAGE" value="연속된 자연수의 합" />
+    <MESSAGE value="최대 길이 연속부분수열" />
+    <option name="LAST_COMMIT_MESSAGE" value="최대 길이 연속부분수열" />
   </component>
 </project>
