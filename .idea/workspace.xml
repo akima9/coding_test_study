@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="매출액의 종류 (시간초과 해결)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex04_04.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="모든 아나그램 찾기 (푸는중)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex04.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,13 +50,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ex04_04">
-    <configuration name="ex03_06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex03_06" />
+  <component name="RunManager" selected="Application.ex04">
+    <configuration name="ex04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.ex04" />
       <module name="coding_test_java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="codingTestStudy.*" />
+          <option name="PATTERN" value="programmers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ex04" />
         <item itemvalue="Application.ex04_04" />
         <item itemvalue="Application.ex04_03" />
         <item itemvalue="Application.ex04_02" />
         <item itemvalue="Application.ex04_01" />
-        <item itemvalue="Application.ex03_06" />
       </list>
     </recent_temporary>
   </component>
@@ -387,11 +387,17 @@
       <option name="project" value="LOCAL" />
       <updated>1680768523879</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="모든 아나그램 찾기 (푸는중)">
+      <created>1680769599970</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1680769599970</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="암호" />
     <MESSAGE value="큰 수 출력하기" />
     <MESSAGE value="보이는 학생" />
     <MESSAGE value="가위 바위 보" />
@@ -416,6 +422,7 @@
     <MESSAGE value="학급 회장(해쉬)" />
     <MESSAGE value="매출액의 종류 (시간초과)" />
     <MESSAGE value="매출액의 종류 (시간초과 해결)" />
-    <option name="LAST_COMMIT_MESSAGE" value="매출액의 종류 (시간초과 해결)" />
+    <MESSAGE value="모든 아나그램 찾기 (푸는중)" />
+    <option name="LAST_COMMIT_MESSAGE" value="모든 아나그램 찾기 (푸는중)" />
   </component>
 </project>
