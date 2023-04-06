@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="모든 아나그램 찾기 (푸는중)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex04.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="숫자 짝꿍">
+      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex05.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,26 +50,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ex04">
+  <component name="RunManager" selected="Application.ex05">
     <configuration name="ex04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="programmers.ex04" />
       <module name="coding_test_java.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="programmers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ex04_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex04_01" />
-      <module name="coding_test_java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="codingTestStudy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,13 +103,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ex05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.ex05" />
+      <module name="coding_test_java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ex05" />
         <item itemvalue="Application.ex04" />
         <item itemvalue="Application.ex04_04" />
         <item itemvalue="Application.ex04_03" />
         <item itemvalue="Application.ex04_02" />
-        <item itemvalue="Application.ex04_01" />
       </list>
     </recent_temporary>
   </component>
@@ -394,11 +394,17 @@
       <option name="project" value="LOCAL" />
       <updated>1680769599970</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="숫자 짝꿍">
+      <created>1680777255858</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1680777255858</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="큰 수 출력하기" />
     <MESSAGE value="보이는 학생" />
     <MESSAGE value="가위 바위 보" />
     <MESSAGE value="피보나치 수열" />
@@ -423,6 +429,7 @@
     <MESSAGE value="매출액의 종류 (시간초과)" />
     <MESSAGE value="매출액의 종류 (시간초과 해결)" />
     <MESSAGE value="모든 아나그램 찾기 (푸는중)" />
-    <option name="LAST_COMMIT_MESSAGE" value="모든 아나그램 찾기 (푸는중)" />
+    <MESSAGE value="숫자 짝꿍" />
+    <option name="LAST_COMMIT_MESSAGE" value="숫자 짝꿍" />
   </component>
 </project>
