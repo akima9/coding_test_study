@@ -18,12 +18,12 @@ public class ex04_03 {
     }
 
     private static String solution(int N, int K, int[] sales) {
-        String answer = "";
+        StringBuilder sb = new StringBuilder();
         HashMap<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < K; i++) {
             map.put(sales[i], map.getOrDefault(sales[i], 0) + 1);
         }
-        answer += map.size();
+        sb.append(map.size());
 
         for (int i = K; i < N; i++) {
             map.put(sales[i], map.getOrDefault(sales[i], 0) + 1);
@@ -34,8 +34,9 @@ public class ex04_03 {
                     map.put(sales[i - K], map.get(sales[i - K]) - 1);
                 }
             }
-            answer += " " + map.size();
+            sb.append(" ").append(map.size());
         }
+        String answer = sb.toString();
         return answer;
     }
 }

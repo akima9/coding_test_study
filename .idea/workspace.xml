@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="학급 회장(해쉬)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex04_03.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="매출액의 종류 (시간초과)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex04_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex04_03.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ex04_03">
     <configuration name="ex03_05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex03_05" />
       <module name="coding_test_java.main" />
@@ -373,11 +373,17 @@
       <option name="project" value="LOCAL" />
       <updated>1680697646852</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="매출액의 종류 (시간초과)">
+      <created>1680767326295</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1680767326295</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="유효한 팰린드롬" />
     <MESSAGE value="문자열 압축" />
     <MESSAGE value="암호" />
     <MESSAGE value="큰 수 출력하기" />
@@ -402,6 +408,7 @@
     <MESSAGE value="연속된 자연수의 합" />
     <MESSAGE value="최대 길이 연속부분수열" />
     <MESSAGE value="학급 회장(해쉬)" />
-    <option name="LAST_COMMIT_MESSAGE" value="학급 회장(해쉬)" />
+    <MESSAGE value="매출액의 종류 (시간초과)" />
+    <option name="LAST_COMMIT_MESSAGE" value="매출액의 종류 (시간초과)" />
   </component>
 </project>
