@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="매출액의 종류 (시간초과)">
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="매출액의 종류 (시간초과 해결)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex04_04.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex04_03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex04_03.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,20 +50,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ex04_03">
-    <configuration name="ex03_05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex03_05" />
-      <module name="coding_test_java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="codingTestStudy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ex04_04">
     <configuration name="ex03_06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex03_06" />
       <module name="coding_test_java.main" />
@@ -116,13 +103,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ex04_04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex04_04" />
+      <module name="coding_test_java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codingTestStudy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ex04_04" />
         <item itemvalue="Application.ex04_03" />
         <item itemvalue="Application.ex04_02" />
         <item itemvalue="Application.ex04_01" />
         <item itemvalue="Application.ex03_06" />
-        <item itemvalue="Application.ex03_05" />
       </list>
     </recent_temporary>
   </component>
@@ -380,11 +380,17 @@
       <option name="project" value="LOCAL" />
       <updated>1680767326295</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="매출액의 종류 (시간초과 해결)">
+      <created>1680768523879</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1680768523879</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="문자열 압축" />
     <MESSAGE value="암호" />
     <MESSAGE value="큰 수 출력하기" />
     <MESSAGE value="보이는 학생" />
@@ -409,6 +415,7 @@
     <MESSAGE value="최대 길이 연속부분수열" />
     <MESSAGE value="학급 회장(해쉬)" />
     <MESSAGE value="매출액의 종류 (시간초과)" />
-    <option name="LAST_COMMIT_MESSAGE" value="매출액의 종류 (시간초과)" />
+    <MESSAGE value="매출액의 종류 (시간초과 해결)" />
+    <option name="LAST_COMMIT_MESSAGE" value="매출액의 종류 (시간초과 해결)" />
   </component>
 </project>
