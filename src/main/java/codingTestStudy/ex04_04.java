@@ -8,29 +8,47 @@ public class ex04_04 {
         Scanner in = new Scanner(System.in);
         String S = in.nextLine();
         String T = in.nextLine();
+
+        System.out.println(solution(S, T));
+    }
+
+    private static int solution(String S, String T) {
         char[] s = S.toCharArray();
         char[] t = T.toCharArray();
         int size = t.length;
         HashMap<Character, Integer> map = new HashMap<>();
+        HashMap<Character, Integer> tmap = new HashMap<>();
         int answer = 0;
         for (int i = 0; i < size; i++) {
             map.put(s[i], map.getOrDefault(s[i], 0) + 1);
+            tmap.put(t[i], tmap.getOrDefault(t[i], 0) + 1);
         }
 
-        if (map.size() == size) answer++;
+        int cnt = 0;
+        if (map.size() == tmap.size()) {
+            for (char x : t) {
+                if (map.getOrDefault(x, 0) == tmap.get(x)) cnt++;
+            }
+        }
+
+        if (cnt == size) answer++;
 
         for (int i = size; i < s.length; i++) {
+            cnt = 0;
             map.put(s[i], map.getOrDefault(s[i], 0) + 1);
-            if (map.containsKey(s[i - size])) {
-                if (map.get(s[i - size]) == 1) {
-                    map.remove(s[i - size]);
-                } else {
-                    map.put(s[i - size], map.get(s[i - size]) - 1);
+            map.put(s[i - size], map.get(s[i - size]) - 1);
+            if (map.get(s[i - size]) == 0) map.remove(s[i - size]);
+            if (map.size() == tmap.size()) {
+                for (char x : t) {
+                    if (map.getOrDefault(x, 0) == tmap.get(x)) cnt++;
                 }
+            } else {
+                continue;
             }
-            if (map.size() == size) answer++;
+            if (cnt == size) answer++;
         }
-        System.out.println(answer);
+
+        return answer;
     }
 }
 //4. 모든 아나그램 찾기

@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="숫자 짝꿍">
-      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex05.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="추억 점수">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex04_04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex04_04.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ex05">
+  <component name="RunManager" selected="Application.ex04_04">
     <configuration name="ex04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="programmers.ex04" />
       <module name="coding_test_java.main" />
@@ -401,11 +401,17 @@
       <option name="project" value="LOCAL" />
       <updated>1680777255858</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="추억 점수">
+      <created>1680778688363</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1680778688363</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="보이는 학생" />
     <MESSAGE value="가위 바위 보" />
     <MESSAGE value="피보나치 수열" />
     <MESSAGE value="소수(에라토스테네스 체)" />
@@ -430,6 +436,7 @@
     <MESSAGE value="매출액의 종류 (시간초과 해결)" />
     <MESSAGE value="모든 아나그램 찾기 (푸는중)" />
     <MESSAGE value="숫자 짝꿍" />
-    <option name="LAST_COMMIT_MESSAGE" value="숫자 짝꿍" />
+    <MESSAGE value="추억 점수" />
+    <option name="LAST_COMMIT_MESSAGE" value="추억 점수" />
   </component>
 </project>
