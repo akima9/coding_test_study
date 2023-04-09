@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="올바른 괄호">
-      <change afterPath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex05_02.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="괄호문자제거">
+      <change afterPath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex05_03.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,20 +49,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager">
-    <configuration name="ex04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.ex04" />
-      <module name="coding_test_java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ex05_03">
     <configuration name="ex04_05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex04_05" />
       <module name="coding_test_java.main" />
@@ -115,13 +102,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ex05_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex05_03" />
+      <module name="coding_test_java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codingTestStudy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ex05_03" />
         <item itemvalue="Application.ex05_02" />
         <item itemvalue="Application.ex05_01" />
         <item itemvalue="Application.ex04_05" />
         <item itemvalue="Application.ex05" />
-        <item itemvalue="Application.ex04" />
       </list>
     </recent_temporary>
   </component>
@@ -421,11 +421,17 @@
       <option name="project" value="LOCAL" />
       <updated>1681017134267</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="괄호문자제거">
+      <created>1681017841313</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1681017841313</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="소수(에라토스테네스 체)" />
     <MESSAGE value="뒤집은 소수" />
     <MESSAGE value="점수계산" />
     <MESSAGE value="등수구하기" />
@@ -450,6 +456,7 @@
     <MESSAGE value="추억 점수" />
     <MESSAGE value="K번째 큰 수" />
     <MESSAGE value="올바른 괄호" />
-    <option name="LAST_COMMIT_MESSAGE" value="올바른 괄호" />
+    <MESSAGE value="괄호문자제거" />
+    <option name="LAST_COMMIT_MESSAGE" value="괄호문자제거" />
   </component>
 </project>
