@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="괄호문자제거">
-      <change afterPath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex05_03.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="크레인 인형뽑기(카카오)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex05_04.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,26 +49,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ex05_03">
+  <component name="RunManager">
     <configuration name="ex04_05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex04_05" />
       <module name="coding_test_java.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="codingTestStudy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ex05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.ex05" />
-      <module name="coding_test_java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,13 +102,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ex05_04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex05_04" />
+      <module name="coding_test_java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codingTestStudy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ex05_04" />
         <item itemvalue="Application.ex05_03" />
         <item itemvalue="Application.ex05_02" />
         <item itemvalue="Application.ex05_01" />
         <item itemvalue="Application.ex04_05" />
-        <item itemvalue="Application.ex05" />
       </list>
     </recent_temporary>
   </component>
@@ -428,11 +428,17 @@
       <option name="project" value="LOCAL" />
       <updated>1681017841313</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="크레인 인형뽑기(카카오)">
+      <created>1681020077409</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1681020077409</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="뒤집은 소수" />
     <MESSAGE value="점수계산" />
     <MESSAGE value="등수구하기" />
     <MESSAGE value="격자판 최대합" />
@@ -457,6 +463,7 @@
     <MESSAGE value="K번째 큰 수" />
     <MESSAGE value="올바른 괄호" />
     <MESSAGE value="괄호문자제거" />
-    <option name="LAST_COMMIT_MESSAGE" value="괄호문자제거" />
+    <MESSAGE value="크레인 인형뽑기(카카오)" />
+    <option name="LAST_COMMIT_MESSAGE" value="크레인 인형뽑기(카카오)" />
   </component>
 </project>
