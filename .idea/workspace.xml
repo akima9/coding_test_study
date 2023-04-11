@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="응급실">
-      <change afterPath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex06_01.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="선택 정렬">
+      <change afterPath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex06_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,20 +50,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ex06_01">
-    <configuration name="ex05_05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex05_05" />
-      <module name="coding_test_java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="codingTestStudy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ex06_02">
     <configuration name="ex05_06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex05_06" />
       <module name="coding_test_java.main" />
@@ -115,13 +103,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ex06_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex06_02" />
+      <module name="coding_test_java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codingTestStudy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ex06_02" />
         <item itemvalue="Application.ex06_01" />
         <item itemvalue="Application.ex05_08" />
         <item itemvalue="Application.ex05_07" />
         <item itemvalue="Application.ex05_06" />
-        <item itemvalue="Application.ex05_05" />
       </list>
     </recent_temporary>
   </component>
@@ -463,11 +464,17 @@
       <option name="project" value="LOCAL" />
       <updated>1681187677149</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="선택 정렬">
+      <created>1681189073268</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1681189073268</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="임시반장 정하기" />
     <MESSAGE value="기사단원의 무기" />
     <MESSAGE value="카드 뭉치" />
     <MESSAGE value="덧칠하기" />
@@ -492,6 +499,7 @@
     <MESSAGE value="쇠막대기" />
     <MESSAGE value="공주 구하기" />
     <MESSAGE value="응급실" />
-    <option name="LAST_COMMIT_MESSAGE" value="응급실" />
+    <MESSAGE value="선택 정렬" />
+    <option name="LAST_COMMIT_MESSAGE" value="선택 정렬" />
   </component>
 </project>
