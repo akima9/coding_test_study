@@ -3,6 +3,15 @@ package codingTestStudy;
 import java.util.LinkedList;
 import java.util.Scanner;
 
+class Person {
+    int id;
+    int prioty;
+
+    public Person(int id, int prioty) {
+        this.id = id;
+        this.prioty = prioty;
+    }
+}
 public class ex05_08 {
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
@@ -17,40 +26,31 @@ public class ex05_08 {
     }
 
     private static int solution(int M, int[] persons) {
-        int m = persons[M];
-        LinkedList<Integer> queue = new LinkedList<>();
-
-        for (int p : persons) {
-            queue.offer(p);
+        LinkedList<Person> queue = new LinkedList<>();
+        for (int i = 0; i < persons.length; i++) {
+            queue.offer(new Person(i, persons[i]));
         }
 
-        int answer = 0;
+        boolean isNotOver = true;
         int cnt = 0;
-        while (queue.size() > 0) {
-            // 환자의 인원을 파악한다.
-            int peopleCnt = queue.size();
-            // 맨 앞 환자를 뽑는다.
-            int curPerson = queue.poll();
-            // 나머지 환자와 위험도를 비교한다.
+        while (isNotOver) {
+            boolean isNotOffer = true;
+            Person firstPerson = queue.poll();
             for (int i = 0; i < queue.size(); i++) {
-                // 위험도가 큰 환자가 있으면 맨 뒤로 넣는다.
-                if (curPerson < queue.get(i)) {
-                    queue.offer(curPerson);
+                if (firstPerson.prioty < queue.get(i).prioty) {
+                    queue.offer(firstPerson);
+                    isNotOffer = false;
                     break;
                 }
             }
-
-            // 처음 환자수 보다 대기줄이 줄었다면 진료 카운트 증가
-            if (peopleCnt > queue.size()) {
+            if (isNotOffer) {
                 cnt++;
-                // 숫자가 같은 거로 구하면 안됨ㅜㅜ 어떻게 구분하지??
-                if (curPerson == m) {
-                    answer = cnt;
-                    break;
+                if (firstPerson.id == M) {
+                    isNotOver = false;
                 }
             }
         }
-        return answer;
+        return cnt;
     }
 }
 //8. 응급실
