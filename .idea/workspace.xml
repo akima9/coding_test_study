@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="마구간 정하기(결정알고리즘)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex10.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="[1차] 다트 게임">
+      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex11.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +50,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ex10">
+  <component name="RunManager" selected="Application.ex11">
     <configuration name="ex06_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex06_10" />
       <module name="coding_test_java.main" />
@@ -70,19 +70,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="codingTestStudy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ex09 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.ex09" />
-      <module name="coding_test_java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,13 +103,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ex11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.ex11" />
+      <module name="coding_test_java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ex11" />
         <item itemvalue="Application.ex10" />
         <item itemvalue="Application.ex07_08" />
         <item itemvalue="Application.ex06_10" />
         <item itemvalue="Application.ex09 (2)" />
-        <item itemvalue="Application.ex09 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -134,13 +134,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677759407081</updated>
-    </task>
-    <task id="LOCAL-00008" summary="유효한 팰린드롬">
-      <created>1678798134170</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1678798134170</updated>
     </task>
     <task id="LOCAL-00009" summary="문자열 압축">
       <created>1679366094671</created>
@@ -478,11 +471,17 @@
       <option name="project" value="LOCAL" />
       <updated>1682907331743</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="[1차] 다트 게임">
+      <created>1683010286159</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1683010286159</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="연속된 자연수의 합" />
     <MESSAGE value="최대 길이 연속부분수열" />
     <MESSAGE value="학급 회장(해쉬)" />
     <MESSAGE value="매출액의 종류 (시간초과)" />
@@ -507,17 +506,7 @@
     <MESSAGE value="좌표 정렬" />
     <MESSAGE value="뮤직비디오(결정알고리즘)" />
     <MESSAGE value="마구간 정하기(결정알고리즘)" />
-    <option name="LAST_COMMIT_MESSAGE" value="마구간 정하기(결정알고리즘)" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/programmers/ex10.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="[1차] 다트 게임" />
+    <option name="LAST_COMMIT_MESSAGE" value="[1차] 다트 게임" />
   </component>
 </project>
