@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="마구간 정하기(결정알고리즘)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex07_08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex10.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +50,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ex07_08">
+  <component name="RunManager" selected="Application.ex10">
     <configuration name="ex06_10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex06_10" />
       <module name="coding_test_java.main" />
@@ -103,8 +103,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.ex09" />
+    <configuration name="ex10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.ex10" />
       <module name="coding_test_java.main" />
       <extension name="coverage">
         <pattern>
@@ -118,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ex10" />
         <item itemvalue="Application.ex07_08" />
         <item itemvalue="Application.ex06_10" />
         <item itemvalue="Application.ex09 (2)" />
         <item itemvalue="Application.ex09 (1)" />
-        <item itemvalue="Application.ex09" />
       </list>
     </recent_temporary>
   </component>
@@ -508,5 +508,16 @@
     <MESSAGE value="뮤직비디오(결정알고리즘)" />
     <MESSAGE value="마구간 정하기(결정알고리즘)" />
     <option name="LAST_COMMIT_MESSAGE" value="마구간 정하기(결정알고리즘)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/programmers/ex10.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
