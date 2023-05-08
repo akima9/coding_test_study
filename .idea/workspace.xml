@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="문자열 나누기">
-      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex17.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="신규 아이디 추천">
+      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex18.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,20 +50,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ex16">
-    <configuration name="ex13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.ex13" />
-      <module name="coding_test_java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ex18">
     <configuration name="ex14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="programmers.ex14" />
       <module name="coding_test_java.main" />
@@ -117,13 +103,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ex18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.ex18" />
+      <module name="coding_test_java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ex18" />
         <item itemvalue="Application.ex17" />
         <item itemvalue="Application.ex16" />
         <item itemvalue="Application.ex15" />
         <item itemvalue="Application.ex14" />
-        <item itemvalue="Application.ex13" />
       </list>
     </recent_temporary>
   </component>
@@ -135,20 +134,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677759407081</updated>
-    </task>
-    <task id="LOCAL-00014" summary="피보나치 수열">
-      <created>1679467493412</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1679467493412</updated>
-    </task>
-    <task id="LOCAL-00015" summary="소수(에라토스테네스 체)">
-      <created>1679546442142</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1679546442142</updated>
     </task>
     <task id="LOCAL-00016" summary="뒤집은 소수">
       <created>1679547348598</created>
@@ -479,12 +464,24 @@
       <option name="project" value="LOCAL" />
       <updated>1683188296339</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="[카카오 인턴] 키패드 누르기">
+      <created>1683501460265</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1683501460265</updated>
+    </task>
+    <task id="LOCAL-00064" summary="신규 아이디 추천">
+      <created>1683501520733</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1683501520733</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="숫자 짝꿍" />
-    <MESSAGE value="추억 점수" />
     <MESSAGE value="K번째 큰 수" />
     <MESSAGE value="올바른 괄호" />
     <MESSAGE value="괄호문자제거" />
@@ -508,6 +505,8 @@
     <MESSAGE value="완주하지 못한 선수" />
     <MESSAGE value="크레인 인형뽑기 게임" />
     <MESSAGE value="문자열 나누기" />
-    <option name="LAST_COMMIT_MESSAGE" value="문자열 나누기" />
+    <MESSAGE value="[카카오 인턴] 키패드 누르기" />
+    <MESSAGE value="신규 아이디 추천" />
+    <option name="LAST_COMMIT_MESSAGE" value="신규 아이디 추천" />
   </component>
 </project>
