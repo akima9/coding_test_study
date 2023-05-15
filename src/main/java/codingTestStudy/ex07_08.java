@@ -1,5 +1,7 @@
 package codingTestStudy;
 
+import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.Scanner;
 
 public class ex07_08 {
@@ -11,35 +13,42 @@ public class ex07_08 {
         System.out.println(solution(S, N));
     }
 
-    public static int solution(int S, int N) {
-        int cnt = 0;
-        int lt = S;
-        int rt = N;
+    private static int solution(int S, int N) {
+        LinkedList<Integer> queue = new LinkedList<>();
+        HashMap<Integer, Integer> map = new HashMap<>();
 
-        while (lt < rt) {
-            if (lt + 5 < rt) {
-                lt += 5;
-                cnt++;
-            } else if (lt + 5 > rt) {
-                if (lt + 3 < rt) {
-                    lt -= 1;
-                    cnt++;
-                } else {
-                    lt += 1;
-                    cnt++;
+        int level = 0;
+        queue.offer(S);
+        while (!queue.isEmpty()) {
+            int len = queue.size();
+            for (int i = 0; i < len; i++) {
+                int cur = queue.poll();
+                if (cur == N) return level;
+
+                map.put(cur, map.getOrDefault(cur, 1));
+
+                int lt = cur - 1;
+                int mt = cur + 1;
+                int rt = cur + 5;
+
+                if (map.getOrDefault(lt, 0) == 0) {
+                    queue.offer(lt);
+                    map.put(lt, 1);
                 }
-            } else {
-                lt += 5;
-                cnt++;
+
+                if (map.getOrDefault(mt, 0) == 0) {
+                    queue.offer(mt);
+                    map.put(mt, 1);
+                }
+
+                if (map.getOrDefault(rt, 0) == 0) {
+                    queue.offer(rt);
+                    map.put(rt, 1);
+                }
             }
+            level++;
         }
-
-        while (lt > rt) {
-            lt -= 1;
-            cnt++;
-        }
-
-        return cnt;
+        return level;
     }
 }
 //8. 송아지 찾기 1(BFS : 상태트리탐색)
