@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="신규 아이디 추천">
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="송아지 찾기 1(BFS : 상태트리탐색)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex08_01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex07_08.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex07_08.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ex07_08">
+  <component name="RunManager" selected="Application.ex08_01">
     <configuration name="ex07_08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex07_08" />
       <module name="coding_test_java.main" />
@@ -64,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.ex15" />
+    <configuration name="ex08_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex08_01" />
       <module name="coding_test_java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.*" />
+          <option name="PATTERN" value="codingTestStudy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ex08_01" />
         <item itemvalue="Application.ex07_08" />
         <item itemvalue="Application.ex18" />
         <item itemvalue="Application.ex17" />
         <item itemvalue="Application.ex16" />
-        <item itemvalue="Application.ex15" />
       </list>
     </recent_temporary>
   </component>
@@ -134,13 +134,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677759407081</updated>
-    </task>
-    <task id="LOCAL-00016" summary="뒤집은 소수">
-      <created>1679547348598</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1679547348598</updated>
     </task>
     <task id="LOCAL-00017" summary="점수계산">
       <created>1679548633703</created>
@@ -478,11 +471,17 @@
       <option name="project" value="LOCAL" />
       <updated>1683501520733</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="송아지 찾기 1(BFS : 상태트리탐색)">
+      <created>1684144605657</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1684144605658</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="K번째 큰 수" />
     <MESSAGE value="올바른 괄호" />
     <MESSAGE value="괄호문자제거" />
     <MESSAGE value="크레인 인형뽑기(카카오)" />
@@ -507,6 +506,7 @@
     <MESSAGE value="문자열 나누기" />
     <MESSAGE value="[카카오 인턴] 키패드 누르기" />
     <MESSAGE value="신규 아이디 추천" />
-    <option name="LAST_COMMIT_MESSAGE" value="신규 아이디 추천" />
+    <MESSAGE value="송아지 찾기 1(BFS : 상태트리탐색)" />
+    <option name="LAST_COMMIT_MESSAGE" value="송아지 찾기 1(BFS : 상태트리탐색)" />
   </component>
 </project>
