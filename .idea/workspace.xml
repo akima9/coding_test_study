@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="합이 같은 부분집합(DFS : 아마존 인터뷰)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex08_02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="바둑이 승차(DFS)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex08_03.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ex08_02">
+  <component name="RunManager" selected="Application.ex08_03">
     <configuration name="ex07_08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex07_08" />
       <module name="coding_test_java.main" />
@@ -90,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.ex17" />
+    <configuration name="ex08_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex08_03" />
       <module name="coding_test_java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.*" />
+          <option name="PATTERN" value="codingTestStudy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ex08_03" />
         <item itemvalue="Application.ex08_02" />
         <item itemvalue="Application.ex08_01" />
         <item itemvalue="Application.ex07_08" />
         <item itemvalue="Application.ex18" />
-        <item itemvalue="Application.ex17" />
       </list>
     </recent_temporary>
   </component>
@@ -134,13 +133,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677759407081</updated>
-    </task>
-    <task id="LOCAL-00018" summary="등수구하기">
-      <created>1679616107376</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1679616107376</updated>
     </task>
     <task id="LOCAL-00019" summary="격자판 최대합">
       <created>1679617339431</created>
@@ -478,11 +470,17 @@
       <option name="project" value="LOCAL" />
       <updated>1684246433261</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="바둑이 승차(DFS)">
+      <created>1684323496131</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1684323496131</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="괄호문자제거" />
     <MESSAGE value="크레인 인형뽑기(카카오)" />
     <MESSAGE value="후위식 연산(postfix)" />
     <MESSAGE value="쇠막대기" />
@@ -507,6 +505,7 @@
     <MESSAGE value="신규 아이디 추천" />
     <MESSAGE value="송아지 찾기 1(BFS : 상태트리탐색)" />
     <MESSAGE value="합이 같은 부분집합(DFS : 아마존 인터뷰)" />
-    <option name="LAST_COMMIT_MESSAGE" value="합이 같은 부분집합(DFS : 아마존 인터뷰)" />
+    <MESSAGE value="바둑이 승차(DFS)" />
+    <option name="LAST_COMMIT_MESSAGE" value="바둑이 승차(DFS)" />
   </component>
 </project>
