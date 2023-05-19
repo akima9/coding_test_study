@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="최대점수 구하기(DFS)">
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="대충 만든 자판">
       <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex20.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex21.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex22.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -52,7 +51,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ex22">
+  <component name="RunManager" selected="Application.ex20">
     <configuration name="ex08_05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex08_05" />
       <module name="coding_test_java.main" />
@@ -136,20 +135,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677759407081</updated>
-    </task>
-    <task id="LOCAL-00020" summary="봉우리">
-      <created>1679618662991</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1679618662991</updated>
-    </task>
-    <task id="LOCAL-00021" summary="임시반장 정하기">
-      <created>1679964081637</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1679964081637</updated>
     </task>
     <task id="LOCAL-00022" summary="기사단원의 무기">
       <created>1680172276420</created>
@@ -480,12 +465,24 @@
       <option name="project" value="LOCAL" />
       <updated>1684324907960</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="성격 유형 검사하기">
+      <created>1684408250834</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1684408250834</updated>
+    </task>
+    <task id="LOCAL-00070" summary="대충 만든 자판">
+      <created>1684452262864</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1684452262865</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="후위식 연산(postfix)" />
-    <MESSAGE value="쇠막대기" />
     <MESSAGE value="공주 구하기" />
     <MESSAGE value="응급실" />
     <MESSAGE value="선택 정렬" />
@@ -509,6 +506,19 @@
     <MESSAGE value="합이 같은 부분집합(DFS : 아마존 인터뷰)" />
     <MESSAGE value="바둑이 승차(DFS)" />
     <MESSAGE value="최대점수 구하기(DFS)" />
-    <option name="LAST_COMMIT_MESSAGE" value="최대점수 구하기(DFS)" />
+    <MESSAGE value="성격 유형 검사하기" />
+    <MESSAGE value="대충 만든 자판" />
+    <option name="LAST_COMMIT_MESSAGE" value="대충 만든 자판" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/programmers/ex20.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
