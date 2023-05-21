@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="햄버거 만들기">
-      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex22.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="달리기 경주">
+      <change afterPath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex08_07.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,9 +50,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ex22">
-    <configuration name="ex08_05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex08_05" />
+  <component name="RunManager" selected="Application.ex08_07">
+    <configuration name="ex08_07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex08_07" />
       <module name="coding_test_java.main" />
       <extension name="coverage">
         <pattern>
@@ -118,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ex08_07" />
         <item itemvalue="Application.ex22" />
         <item itemvalue="Application.ex21" />
         <item itemvalue="Application.ex20" />
         <item itemvalue="Application.ex19" />
-        <item itemvalue="Application.ex08_05" />
       </list>
     </recent_temporary>
   </component>
@@ -134,13 +134,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677759407081</updated>
-    </task>
-    <task id="LOCAL-00023" summary="카드 뭉치">
-      <created>1680224019471</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1680224019471</updated>
     </task>
     <task id="LOCAL-00024" summary="덧칠하기">
       <created>1680236313937</created>
@@ -478,11 +471,17 @@
       <option name="project" value="LOCAL" />
       <updated>1684478211786</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="달리기 경주">
+      <created>1684479670740</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1684479670740</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="응급실" />
     <MESSAGE value="선택 정렬" />
     <MESSAGE value="버블 정렬" />
     <MESSAGE value="삽입 정렬" />
@@ -507,6 +506,7 @@
     <MESSAGE value="성격 유형 검사하기" />
     <MESSAGE value="대충 만든 자판" />
     <MESSAGE value="햄버거 만들기" />
-    <option name="LAST_COMMIT_MESSAGE" value="햄버거 만들기" />
+    <MESSAGE value="달리기 경주" />
+    <option name="LAST_COMMIT_MESSAGE" value="달리기 경주" />
   </component>
 </project>
