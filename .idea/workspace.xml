@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="미로탐색(DFS)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex08_11.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="미로의 최단거리 통로(BFS)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex08_12.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +50,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ex08_11">
+  <component name="RunManager" selected="Application.ex08_12">
     <configuration name="ex08_07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex08_07" />
       <module name="coding_test_java.main" />
@@ -103,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.ex22" />
+    <configuration name="ex08_12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex08_12" />
       <module name="coding_test_java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.*" />
+          <option name="PATTERN" value="codingTestStudy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ex08_12" />
         <item itemvalue="Application.ex08_11" />
         <item itemvalue="Application.ex08_10" />
         <item itemvalue="Application.ex08_08" />
         <item itemvalue="Application.ex08_07" />
-        <item itemvalue="Application.ex22" />
       </list>
     </recent_temporary>
   </component>
@@ -134,13 +134,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677759407081</updated>
-    </task>
-    <task id="LOCAL-00026" summary="멘토링 (해결)">
-      <created>1680310593967</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1680310593967</updated>
     </task>
     <task id="LOCAL-00027" summary="두 배열 합치기">
       <created>1680397740692</created>
@@ -478,11 +471,17 @@
       <option name="project" value="LOCAL" />
       <updated>1684846547890</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="미로의 최단거리 통로(BFS)">
+      <created>1684930040434</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1684930040435</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="삽입 정렬" />
     <MESSAGE value="Least Recently Used" />
     <MESSAGE value="공원 산책" />
     <MESSAGE value="장난꾸러기" />
@@ -507,6 +506,7 @@
     <MESSAGE value="달리기 경주" />
     <MESSAGE value="수열 추측하기" />
     <MESSAGE value="미로탐색(DFS)" />
-    <option name="LAST_COMMIT_MESSAGE" value="미로탐색(DFS)" />
+    <MESSAGE value="미로의 최단거리 통로(BFS)" />
+    <option name="LAST_COMMIT_MESSAGE" value="미로의 최단거리 통로(BFS)" />
   </component>
 </project>
