@@ -19,15 +19,10 @@ public class ex08_14 {
     static int[] combi;
     static ArrayList<Pt> house;
     static ArrayList<Pt> pizza;
-    static int len;
+    static int pizzaLen;
     static int min = Integer.MAX_VALUE;
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
-        //4 4
-        //0 1 2 0
-        //1 0 2 1
-        //0 2 1 2
-        //2 0 1 2
         N = in.nextInt();
         M = in.nextInt();
         map = new int[N][N];
@@ -36,13 +31,7 @@ public class ex08_14 {
                 map[i][j] = in.nextInt();
             }
         }
-//        N = 4;
-//        M = 4;
-//        map = new int[N][N];
-//        map[0] = new int[]{0, 1, 2, 0};
-//        map[1] = new int[]{1, 0, 2, 1};
-//        map[2] = new int[]{0, 2, 1, 2};
-//        map[3] = new int[]{2, 0, 1, 2};
+
         System.out.println(solution(N, M, map));
     }
     public static int solution(int N, int M, int[][] map) {
@@ -58,27 +47,26 @@ public class ex08_14 {
                 }
             }
         }
-
-        len = pizza.size();
+        pizzaLen = pizza.size();
         combi = new int[N];
         DFS(0, 0);
         return min;
     }
-    public static void DFS(int index, int size) {
-        if (index == M) {
+    public static void DFS(int L, int S) {
+        if (L == M) {
             int sum = 0;
-            for (int i = 0; i < house.size(); i++) {
+            for (Pt h : house) {
                 int dis = Integer.MAX_VALUE;
-                for (int j = 0; j < M; j++) {
-                    dis = Math.min(dis, Math.abs(house.get(i).x - pizza.get(j).x) + Math.abs(house.get(i).y - pizza.get(j).y));
+                for (int i = 0; i < M; i++) {
+                    dis = Math.min(dis, Math.abs(h.x - pizza.get(combi[i]).x) + Math.abs(h.y - pizza.get(combi[i]).y));
                 }
                 sum += dis;
             }
             min = Math.min(min, sum);
         } else {
-            for (int i = size; i < len; i++) {
-                combi[index] = i;
-                DFS(index + 1, i + 1);
+            for (int i = S; i < pizzaLen; i++) {
+                combi[L] = i;
+                DFS(L + 1, i + 1);
             }
         }
     }
