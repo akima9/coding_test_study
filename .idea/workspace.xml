@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="씨름 선수">
-      <change afterPath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex09_02.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="회의실 배정">
+      <change afterPath="$PROJECT_DIR$/src/main/java/codingTestStudy/ex09_03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,33 +50,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ex09_02">
-    <configuration name="ex08_13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex08_13" />
-      <module name="coding_test_java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="codingTestStudy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ex08_14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex08_14" />
-      <module name="coding_test_java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="codingTestStudy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ex09_03">
     <configuration name="ex09_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex09_01" />
       <module name="coding_test_java.main" />
@@ -116,13 +90,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ex09_03 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex09_03" />
+      <module name="coding_test_java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codingTestStudy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex09_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex09_03" />
+      <module name="coding_test_java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codingTestStudy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ex09_03 (1)" />
+        <item itemvalue="Application.ex09_03" />
         <item itemvalue="Application.ex09_02 (1)" />
         <item itemvalue="Application.ex09_02" />
         <item itemvalue="Application.ex09_01" />
-        <item itemvalue="Application.ex08_14" />
-        <item itemvalue="Application.ex08_13" />
       </list>
     </recent_temporary>
   </component>
@@ -134,13 +134,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677759407081</updated>
-    </task>
-    <task id="LOCAL-00029" summary="최대 매출">
-      <created>1680520669788</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1680520669788</updated>
     </task>
     <task id="LOCAL-00030" summary="연속 부분수열">
       <created>1680525642498</created>
@@ -478,11 +471,17 @@
       <option name="project" value="LOCAL" />
       <updated>1685523400243</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="회의실 배정">
+      <created>1685539091336</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1685539091336</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="장난꾸러기" />
     <MESSAGE value="좌표 정렬" />
     <MESSAGE value="뮤직비디오(결정알고리즘)" />
     <MESSAGE value="마구간 정하기(결정알고리즘)" />
@@ -507,6 +506,7 @@
     <MESSAGE value="미로의 최단거리 통로(BFS)" />
     <MESSAGE value="피자 배달 거리(삼성 SW역량평가 기출문제 : DFS활용)" />
     <MESSAGE value="씨름 선수" />
-    <option name="LAST_COMMIT_MESSAGE" value="씨름 선수" />
+    <MESSAGE value="회의실 배정" />
+    <option name="LAST_COMMIT_MESSAGE" value="회의실 배정" />
   </component>
 </project>
