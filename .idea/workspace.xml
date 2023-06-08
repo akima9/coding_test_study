@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="개인정보 수집 유효기간">
-      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex25.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="신고 결과 받기">
+      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex26.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,20 +50,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ex25">
-    <configuration name="ex09_03 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex09_03" />
-      <module name="coding_test_java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="codingTestStudy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ex26">
     <configuration name="ex09_04 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codingTestStudy.ex09_04" />
       <module name="coding_test_java.main" />
@@ -116,13 +103,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ex26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.ex26" />
+      <module name="coding_test_java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ex26" />
         <item itemvalue="Application.ex25" />
         <item itemvalue="Application.ex24" />
         <item itemvalue="Application.ex09_04 (1)" />
         <item itemvalue="Application.ex09_04" />
-        <item itemvalue="Application.ex09_03 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -134,13 +134,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677759407081</updated>
-    </task>
-    <task id="LOCAL-00032" summary="연속된 자연수의 합">
-      <created>1680609094881</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1680609094881</updated>
     </task>
     <task id="LOCAL-00033" summary="최대 길이 연속부분수열">
       <created>1680616368213</created>
@@ -478,11 +471,17 @@
       <option name="project" value="LOCAL" />
       <updated>1686199405830</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="신고 결과 받기">
+      <created>1686202770089</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1686202770089</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="마구간 정하기(결정알고리즘)" />
     <MESSAGE value="[1차] 다트 게임" />
     <MESSAGE value="로또의 최고 순위와 최저 순위" />
     <MESSAGE value="체육복" />
@@ -507,6 +506,7 @@
     <MESSAGE value="회의실 배정" />
     <MESSAGE value="결혼식" />
     <MESSAGE value="개인정보 수집 유효기간" />
-    <option name="LAST_COMMIT_MESSAGE" value="개인정보 수집 유효기간" />
+    <MESSAGE value="신고 결과 받기" />
+    <option name="LAST_COMMIT_MESSAGE" value="신고 결과 받기" />
   </component>
 </project>
