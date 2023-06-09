@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="최솟값 만들기">
-      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex29.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="올바른 괄호">
+      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex30.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,20 +50,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ex29">
-    <configuration name="ex25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.ex25" />
-      <module name="coding_test_java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ex30">
     <configuration name="ex26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="programmers.ex26" />
       <module name="coding_test_java.main" />
@@ -116,13 +103,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ex30" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.ex30" />
+      <module name="coding_test_java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ex30" />
         <item itemvalue="Application.ex29" />
         <item itemvalue="Application.ex28" />
         <item itemvalue="Application.ex27" />
         <item itemvalue="Application.ex26" />
-        <item itemvalue="Application.ex25" />
       </list>
     </recent_temporary>
   </component>
@@ -134,13 +134,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677759407081</updated>
-    </task>
-    <task id="LOCAL-00036" summary="매출액의 종류 (시간초과 해결)">
-      <created>1680768523879</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1680768523879</updated>
     </task>
     <task id="LOCAL-00037" summary="모든 아나그램 찾기 (푸는중)">
       <created>1680769599970</created>
@@ -478,11 +471,17 @@
       <option name="project" value="LOCAL" />
       <updated>1686288266734</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="올바른 괄호">
+      <created>1686290564658</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1686290564658</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="완주하지 못한 선수" />
     <MESSAGE value="크레인 인형뽑기 게임" />
     <MESSAGE value="문자열 나누기" />
     <MESSAGE value="[카카오 인턴] 키패드 누르기" />
@@ -507,6 +506,7 @@
     <MESSAGE value="최댓값과 최솟값" />
     <MESSAGE value="JadenCase 문자열 만들기" />
     <MESSAGE value="최솟값 만들기" />
-    <option name="LAST_COMMIT_MESSAGE" value="최솟값 만들기" />
+    <MESSAGE value="올바른 괄호" />
+    <option name="LAST_COMMIT_MESSAGE" value="올바른 괄호" />
   </component>
 </project>
