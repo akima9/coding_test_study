@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="숫자의 표현">
-      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex32.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="다음 큰 숫자">
+      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex33.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,20 +50,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ex32">
-    <configuration name="ex28" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.ex28" />
-      <module name="coding_test_java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ex33">
     <configuration name="ex29" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="programmers.ex29" />
       <module name="coding_test_java.main" />
@@ -115,13 +103,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ex33" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.ex33" />
+      <module name="coding_test_java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ex33" />
         <item itemvalue="Application.ex32" />
         <item itemvalue="Application.ex31" />
         <item itemvalue="Application.ex30" />
         <item itemvalue="Application.ex29" />
-        <item itemvalue="Application.ex28" />
       </list>
     </recent_temporary>
   </component>
@@ -133,13 +134,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677759407081</updated>
-    </task>
-    <task id="LOCAL-00039" summary="추억 점수">
-      <created>1680778688363</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1680778688363</updated>
     </task>
     <task id="LOCAL-00040" summary="K번째 큰 수">
       <created>1681016075291</created>
@@ -477,11 +471,17 @@
       <option name="project" value="LOCAL" />
       <updated>1686547775131</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="다음 큰 숫자">
+      <created>1686548909634</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1686548909634</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[카카오 인턴] 키패드 누르기" />
     <MESSAGE value="신규 아이디 추천" />
     <MESSAGE value="송아지 찾기 1(BFS : 상태트리탐색)" />
     <MESSAGE value="합이 같은 부분집합(DFS : 아마존 인터뷰)" />
@@ -506,6 +506,7 @@
     <MESSAGE value="올바른 괄호" />
     <MESSAGE value="이진 변환 반복하기" />
     <MESSAGE value="숫자의 표현" />
-    <option name="LAST_COMMIT_MESSAGE" value="숫자의 표현" />
+    <MESSAGE value="다음 큰 숫자" />
+    <option name="LAST_COMMIT_MESSAGE" value="다음 큰 숫자" />
   </component>
 </project>
