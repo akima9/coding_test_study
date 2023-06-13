@@ -7,6 +7,11 @@ public class ex34 {
         System.out.println(solution("baabaa"));
         System.out.println(solution("cdcd"));
     }
+
+    /**
+     * stack에 한 글자씩 쌓는다.
+     * 가장 마지막에 쌓은 글자를 확인해서 쌓으려는 글자와 같으면 pop, 다르면 push
+     */
     public static int solution(String s)
     {
         int answer = 0;
