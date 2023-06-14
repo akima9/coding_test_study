@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="영어 끝말잇기">
-      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex36.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="카펫">
+      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex37.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,20 +50,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ex36">
-    <configuration name="ex32" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.ex32" />
-      <module name="coding_test_java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ex37">
     <configuration name="ex33" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="programmers.ex33" />
       <module name="coding_test_java.main" />
@@ -116,13 +103,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ex37" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.ex37" />
+      <module name="coding_test_java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ex37" />
         <item itemvalue="Application.ex36" />
         <item itemvalue="Application.ex35" />
         <item itemvalue="Application.ex34" />
         <item itemvalue="Application.ex33" />
-        <item itemvalue="Application.ex32" />
       </list>
     </recent_temporary>
   </component>
@@ -134,13 +134,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677759407081</updated>
-    </task>
-    <task id="LOCAL-00043" summary="크레인 인형뽑기(카카오)">
-      <created>1681020077409</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1681020077409</updated>
     </task>
     <task id="LOCAL-00044" summary="후위식 연산(postfix)">
       <created>1681123365404</created>
@@ -478,11 +471,17 @@
       <option name="project" value="LOCAL" />
       <updated>1686620404196</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="카펫">
+      <created>1686633756767</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1686633756768</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="바둑이 승차(DFS)" />
     <MESSAGE value="최대점수 구하기(DFS)" />
     <MESSAGE value="성격 유형 검사하기" />
     <MESSAGE value="대충 만든 자판" />
@@ -507,6 +506,7 @@
     <MESSAGE value="피보나치 수" />
     <MESSAGE value="짝지어 제거하기" />
     <MESSAGE value="영어 끝말잇기" />
-    <option name="LAST_COMMIT_MESSAGE" value="영어 끝말잇기" />
+    <MESSAGE value="카펫" />
+    <option name="LAST_COMMIT_MESSAGE" value="카펫" />
   </component>
 </project>
