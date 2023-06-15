@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="예상 대진표">
-      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex38.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="구명보트">
+      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex39.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,20 +50,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ex38">
-    <configuration name="ex34" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.ex34" />
-      <module name="coding_test_java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ex39">
     <configuration name="ex35" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="programmers.ex35" />
       <module name="coding_test_java.main" />
@@ -116,13 +103,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ex39" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.ex39" />
+      <module name="coding_test_java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ex39" />
         <item itemvalue="Application.ex38" />
         <item itemvalue="Application.ex37" />
         <item itemvalue="Application.ex36" />
         <item itemvalue="Application.ex35" />
-        <item itemvalue="Application.ex34" />
       </list>
     </recent_temporary>
   </component>
@@ -134,13 +134,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677759407081</updated>
-    </task>
-    <task id="LOCAL-00045" summary="쇠막대기">
-      <created>1681125428539</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1681125428539</updated>
     </task>
     <task id="LOCAL-00046" summary="공주 구하기">
       <created>1681127860144</created>
@@ -478,11 +471,17 @@
       <option name="project" value="LOCAL" />
       <updated>1686732511735</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="구명보트">
+      <created>1686789426304</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1686789426305</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="성격 유형 검사하기" />
     <MESSAGE value="대충 만든 자판" />
     <MESSAGE value="햄버거 만들기" />
     <MESSAGE value="달리기 경주" />
@@ -507,6 +506,7 @@
     <MESSAGE value="영어 끝말잇기" />
     <MESSAGE value="카펫" />
     <MESSAGE value="예상 대진표" />
-    <option name="LAST_COMMIT_MESSAGE" value="예상 대진표" />
+    <MESSAGE value="구명보트" />
+    <option name="LAST_COMMIT_MESSAGE" value="구명보트" />
   </component>
 </project>
