@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="괄호 회전하기">
-      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex40.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="N개의 최소공배수">
       <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex41.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -51,7 +50,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ex40">
+  <component name="RunManager" selected="Application.ex41">
     <configuration name="ex39" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="programmers.ex39" />
       <module name="coding_test_java.main" />
@@ -135,13 +134,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677759407081</updated>
-    </task>
-    <task id="LOCAL-00049" summary="버블 정렬">
-      <created>1681190904782</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1681190904782</updated>
     </task>
     <task id="LOCAL-00050" summary="삽입 정렬">
       <created>1681192217673</created>
@@ -479,11 +471,17 @@
       <option name="project" value="LOCAL" />
       <updated>1686825641328</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="N개의 최소공배수">
+      <created>1686871616761</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1686871616761</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="수열 추측하기" />
     <MESSAGE value="미로탐색(DFS)" />
     <MESSAGE value="미로의 최단거리 통로(BFS)" />
     <MESSAGE value="피자 배달 거리(삼성 SW역량평가 기출문제 : DFS활용)" />
@@ -508,6 +506,7 @@
     <MESSAGE value="점프와 순간 이동" />
     <MESSAGE value="귤 고르기" />
     <MESSAGE value="괄호 회전하기" />
-    <option name="LAST_COMMIT_MESSAGE" value="괄호 회전하기" />
+    <MESSAGE value="N개의 최소공배수" />
+    <option name="LAST_COMMIT_MESSAGE" value="N개의 최소공배수" />
   </component>
 </project>
