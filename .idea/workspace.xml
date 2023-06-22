@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="멀리 뛰기">
-      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex44.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="H-Index">
       <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex45.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -51,7 +50,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ex44">
+  <component name="RunManager" selected="Application.ex45">
     <configuration name="ex41" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="programmers.ex41" />
       <module name="coding_test_java.main" />
@@ -479,11 +478,10 @@
       <option name="project" value="LOCAL" />
       <updated>1686873222511</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="미로의 최단거리 통로(BFS)" />
     <MESSAGE value="피자 배달 거리(삼성 SW역량평가 기출문제 : DFS활용)" />
     <MESSAGE value="씨름 선수" />
     <MESSAGE value="회의실 배정" />
@@ -508,15 +506,16 @@
     <MESSAGE value="괄호 회전하기" />
     <MESSAGE value="N개의 최소공배수" />
     <MESSAGE value="멀리 뛰기" />
-    <option name="LAST_COMMIT_MESSAGE" value="멀리 뛰기" />
+    <MESSAGE value="H-Index" />
+    <option name="LAST_COMMIT_MESSAGE" value="H-Index" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/programmers/ex44.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="4" />
+          <url>file://$PROJECT_DIR$/src/main/java/programmers/ex45.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
