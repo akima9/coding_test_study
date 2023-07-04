@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="연속 부분 수열 합의 개수">
-      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex46.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex47.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="행렬의 곱셈">
       <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex48.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -52,7 +50,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ex46">
+  <component name="RunManager" selected="Application.ex48">
     <configuration name="ex44" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="programmers.ex44" />
       <module name="coding_test_java.main" />
@@ -480,12 +478,10 @@
       <option name="project" value="LOCAL" />
       <updated>1686873222511</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="씨름 선수" />
-    <MESSAGE value="회의실 배정" />
     <MESSAGE value="결혼식" />
     <MESSAGE value="개인정보 수집 유효기간" />
     <MESSAGE value="신고 결과 받기" />
@@ -509,6 +505,8 @@
     <MESSAGE value="멀리 뛰기" />
     <MESSAGE value="H-Index" />
     <MESSAGE value="연속 부분 수열 합의 개수" />
-    <option name="LAST_COMMIT_MESSAGE" value="연속 부분 수열 합의 개수" />
+    <MESSAGE value="n^2 배열 자르기" />
+    <MESSAGE value="행렬의 곱셈" />
+    <option name="LAST_COMMIT_MESSAGE" value="행렬의 곱셈" />
   </component>
 </project>
