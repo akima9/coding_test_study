@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="의상">
-      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex50.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex51.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="할인 행사">
       <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex52.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -52,7 +50,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ex50">
+  <component name="RunManager" selected="Application.ex52">
     <configuration name="ex49" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="programmers.ex49" />
       <module name="coding_test_java.main" />
@@ -480,12 +478,10 @@
       <option name="project" value="LOCAL" />
       <updated>1686873222511</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="신고 결과 받기" />
-    <MESSAGE value="최댓값과 최솟값" />
     <MESSAGE value="JadenCase 문자열 만들기" />
     <MESSAGE value="최솟값 만들기" />
     <MESSAGE value="올바른 괄호" />
@@ -509,6 +505,8 @@
     <MESSAGE value="행렬의 곱셈" />
     <MESSAGE value="[1차] 캐시" />
     <MESSAGE value="의상" />
-    <option name="LAST_COMMIT_MESSAGE" value="의상" />
+    <MESSAGE value="튜플" />
+    <MESSAGE value="할인 행사" />
+    <option name="LAST_COMMIT_MESSAGE" value="할인 행사" />
   </component>
 </project>
