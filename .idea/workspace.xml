@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="k진수에서 소수 개수 구하기">
-      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex59.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="[3차] 압축">
+      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex60.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,20 +50,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ex59">
-    <configuration name="ex55" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.ex55" />
-      <module name="coding_test_java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ex60">
     <configuration name="ex56" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="programmers.ex56" />
       <module name="coding_test_java.main" />
@@ -117,6 +103,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ex60" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.ex60" />
+      <module name="coding_test_java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="coding_test_study" />
       <method v="2">
@@ -132,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ex60" />
         <item itemvalue="Application.ex59" />
         <item itemvalue="Application.ex58" />
         <item itemvalue="Application.ex57" />
         <item itemvalue="Application.ex56" />
-        <item itemvalue="Application.ex55" />
       </list>
     </recent_temporary>
   </component>
@@ -492,11 +491,10 @@
       <option name="project" value="LOCAL" />
       <updated>1686873222511</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="짝지어 제거하기" />
     <MESSAGE value="영어 끝말잇기" />
     <MESSAGE value="카펫" />
     <MESSAGE value="예상 대진표" />
@@ -521,6 +519,7 @@
     <MESSAGE value="타겟 넘버" />
     <MESSAGE value="전화번호 목록" />
     <MESSAGE value="k진수에서 소수 개수 구하기" />
-    <option name="LAST_COMMIT_MESSAGE" value="k진수에서 소수 개수 구하기" />
+    <MESSAGE value="[3차] 압축" />
+    <option name="LAST_COMMIT_MESSAGE" value="[3차] 압축" />
   </component>
 </project>
