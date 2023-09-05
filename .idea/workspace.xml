@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="주차 요금 계산">
-      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex63.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex64.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex65.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="모음 사전">
+      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex66.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/ex68.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,10 +33,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2MSSHkfJHzomars4UYapQlkI5Oj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -56,33 +55,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ex65">
-    <configuration name="ex61" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.ex61" />
-      <module name="coding_test_java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ex62" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programmers.ex62" />
-      <module name="coding_test_java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ex66">
     <configuration name="ex63" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="programmers.ex63" />
       <module name="coding_test_java.main" />
@@ -122,6 +95,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ex66" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.ex66" />
+      <module name="coding_test_java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ex68" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="programmers.ex68" />
+      <module name="coding_test_java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="coding_test_study" />
       <method v="2">
@@ -137,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ex68" />
+        <item itemvalue="Application.ex66" />
         <item itemvalue="Application.ex65" />
         <item itemvalue="Application.ex64" />
         <item itemvalue="Application.ex63" />
-        <item itemvalue="Application.ex62" />
-        <item itemvalue="Application.ex61" />
       </list>
     </recent_temporary>
   </component>
@@ -497,13 +496,10 @@
       <option name="project" value="LOCAL" />
       <updated>1686873222511</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="구명보트" />
-    <MESSAGE value="점프와 순간 이동" />
-    <MESSAGE value="귤 고르기" />
     <MESSAGE value="괄호 회전하기" />
     <MESSAGE value="N개의 최소공배수" />
     <MESSAGE value="멀리 뛰기" />
@@ -526,6 +522,9 @@
     <MESSAGE value="[3차] n진수 게임" />
     <MESSAGE value="더 맵게" />
     <MESSAGE value="주차 요금 계산" />
-    <option name="LAST_COMMIT_MESSAGE" value="주차 요금 계산" />
+    <MESSAGE value="오픈채팅방" />
+    <MESSAGE value="땅따먹기" />
+    <MESSAGE value="모음 사전" />
+    <option name="LAST_COMMIT_MESSAGE" value="모음 사전" />
   </component>
 </project>
