@@ -3,24 +3,7 @@ package leetCode;
 import java.util.ArrayList;
 import java.util.List;
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
 
-    public TreeNode() {
-    }
-
-    public TreeNode(int val) {
-        this.val = val;
-    }
-
-    public TreeNode(int val, TreeNode left, TreeNode right) {
-        this.val = val;
-        this.left = left;
-        this.right = right;
-    }
-}
 public class Ex01 {
     public static void main(String[] args) {
         TreeNode left = new TreeNode(3);
@@ -40,6 +23,25 @@ public class Ex01 {
             DFS(node.left, list);
             list.add(node.val);
             DFS(node.right, list);
+        }
+    }
+
+    private static class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        public TreeNode() {
+        }
+
+        public TreeNode(int val) {
+            this.val = val;
+        }
+
+        public TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
         }
     }
 }
