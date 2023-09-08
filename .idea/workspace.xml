@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment="Same Tree">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetCode/Ex03.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment=":hammer: Symmetric Tree">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetCode/Ex04.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -495,11 +495,10 @@
       <option name="project" value="LOCAL" />
       <updated>1686873222511</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="멀리 뛰기" />
     <MESSAGE value="H-Index" />
     <MESSAGE value="연속 부분 수열 합의 개수" />
     <MESSAGE value="n^2 배열 자르기" />
@@ -524,21 +523,7 @@
     <MESSAGE value="모음 사전" />
     <MESSAGE value="Same Tree&#10;아직 해결 못함" />
     <MESSAGE value="Same Tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="Same Tree" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/leetCode/Ex03.java</url>
-          <line>13</line>
-          <properties class="leetCode.Ex03" method="DFS">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value=":hammer: Symmetric Tree" />
+    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Symmetric Tree" />
   </component>
 </project>
