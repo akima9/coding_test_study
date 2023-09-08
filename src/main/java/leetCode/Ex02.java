@@ -3,25 +3,21 @@ package leetCode;
 import java.util.ArrayList;
 
 public class Ex02 {
-    static ArrayList<Integer> pList = new ArrayList<>();
-    static ArrayList<Integer> qList = new ArrayList<>();
-    //Input: p = [1,2,3], q = [1,2,3]
-    //Output: true
-    //
-    //Input: p = [1,2], q = [1,null,2]
-    //Output: false
     public static void main(String[] args) {
-        TreeNode treeNodePLeft = new TreeNode(2);
-        TreeNode treeNodePRight = new TreeNode(3);
-        TreeNode treeNodeP = new TreeNode(1, treeNodePLeft, null);
+        TreeNode treeNodePLeft = new TreeNode(-685);
+        TreeNode treeNodePRight = new TreeNode(2970);
+        TreeNode treeNodeP = new TreeNode(5, treeNodePLeft, treeNodePRight);
 
-        TreeNode treeNodeQLeft = new TreeNode(2);
-        TreeNode treeNodeQRight = new TreeNode(2);
-        TreeNode treeNodeQ = new TreeNode(1, null, treeNodeQRight);
+        TreeNode treeNodeQLeft = new TreeNode(-685);
+        TreeNode treeNodeQRight = new TreeNode(2970);
+        TreeNode treeNodeQ = new TreeNode(5, treeNodeQLeft, treeNodeQRight);
 
         System.out.println(isSameTree(treeNodeP, treeNodeQ));
     }
     public static boolean isSameTree(TreeNode p, TreeNode q) {
+        ArrayList<Integer> pList = new ArrayList<>();
+        ArrayList<Integer> qList = new ArrayList<>();
+
         DFS(p, pList);
         DFS(q, qList);
 
@@ -30,7 +26,12 @@ public class Ex02 {
         } else {
             for (int i = 0; i < pList.size(); i++) {
                 if (pList.get(i) != qList.get(i)) {
-                    return false;
+                    if (pList.get(i) == null || qList.get(i) == null) {
+                        return false;
+                    }
+                    if (pList.get(i).compareTo(qList.get(i)) != 0) {
+                        return false;
+                    }
                 }
             }
         }
@@ -39,7 +40,7 @@ public class Ex02 {
 
     public static void DFS(TreeNode node, ArrayList<Integer> list) {
         if (node == null) {
-            list.add(0);
+            list.add(null);
             return;
         } else {
             list.add(node.val);
@@ -67,10 +68,3 @@ public class Ex02 {
         }
     }
 }
-//class Solution {
-//    public boolean isSameTree(TreeNode p, TreeNode q) {
-//
-//    }
-//}
-//
-
