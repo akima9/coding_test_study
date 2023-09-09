@@ -1,20 +1,24 @@
 package leetCode;
 
+//https://leetcode.com/problems/maximum-depth-of-binary-tree/description/
 public class Ex04 {
+    static int maxDepth;
     public static void main(String[] args) {
         TreeNode treeNode = new TreeNode(
                 3,
                 new TreeNode(9),
                 new TreeNode(20, new TreeNode(15), new TreeNode(7))
         );
-        System.out.println(treeNode);
+        System.out.println(maxDepth(treeNode));
     }
     public static int maxDepth(TreeNode root) {
-        DFS(root, 1);
-        return 0;
+        maxDepth = Integer.MIN_VALUE;
+        DFS(root, 0);
+        return maxDepth;
     }
     public static void DFS(TreeNode node, int depth) {
         if (node == null) {
+            maxDepth = Math.max(depth, maxDepth);
             return;
         } else {
             depth++;
