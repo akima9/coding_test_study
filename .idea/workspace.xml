@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment=":hammer: Minimum Depth of Binary Tree">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetCode/Ex07.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment=":hammer: Path Sum">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetCode/Ex08.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,20 +54,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ex07">
-    <configuration name="Ex02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCode.Ex02" />
-      <module name="coding_test_java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Ex08">
     <configuration name="Ex03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCode.Ex03" />
       <module name="coding_test_java.main" />
@@ -120,6 +107,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ex08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCode.Ex08" />
+      <module name="coding_test_java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="coding_test_study" />
       <method v="2">
@@ -135,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex08" />
         <item itemvalue="Application.Ex07" />
         <item itemvalue="Application.Ex06" />
         <item itemvalue="Application.Ex04" />
         <item itemvalue="Application.Ex03" />
-        <item itemvalue="Application.Ex02" />
       </list>
     </recent_temporary>
   </component>
@@ -495,11 +495,10 @@
       <option name="project" value="LOCAL" />
       <updated>1686873222511</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="연속 부분 수열 합의 개수" />
     <MESSAGE value="n^2 배열 자르기" />
     <MESSAGE value="행렬의 곱셈" />
     <MESSAGE value="[1차] 캐시" />
@@ -524,6 +523,7 @@
     <MESSAGE value="Same Tree" />
     <MESSAGE value=":hammer: Symmetric Tree" />
     <MESSAGE value=":hammer: Minimum Depth of Binary Tree" />
-    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Minimum Depth of Binary Tree" />
+    <MESSAGE value=":hammer: Path Sum" />
+    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Path Sum" />
   </component>
 </project>
