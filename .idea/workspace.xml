@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment=":hammer: Find Mode in Binary Search Tree">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetCode/Ex16.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment=":hammer: Minimum Absolute Difference in BST">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetCode/Ex17.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,20 +54,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ex16">
-    <configuration name="Ex12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCode.Ex12" />
-      <module name="coding_test_java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Ex17">
     <configuration name="Ex13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCode.Ex13" />
       <module name="coding_test_java.main" />
@@ -120,6 +107,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ex17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCode.Ex17" />
+      <module name="coding_test_java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="coding_test_study" />
       <method v="2">
@@ -135,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex17" />
         <item itemvalue="Application.Ex16" />
         <item itemvalue="Application.Ex15" />
         <item itemvalue="Application.Ex14" />
         <item itemvalue="Application.Ex13" />
-        <item itemvalue="Application.Ex12" />
       </list>
     </recent_temporary>
   </component>
@@ -495,11 +495,10 @@
       <option name="project" value="LOCAL" />
       <updated>1686873222511</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[1차] 뉴스 클러스터링" />
     <MESSAGE value="피로도" />
     <MESSAGE value="타겟 넘버" />
     <MESSAGE value="전화번호 목록" />
@@ -524,7 +523,8 @@
     <MESSAGE value=":hammer: Sum of Left Leaves" />
     <MESSAGE value=":hammer: Island Perimeter" />
     <MESSAGE value=":hammer: Find Mode in Binary Search Tree" />
-    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Find Mode in Binary Search Tree" />
+    <MESSAGE value=":hammer: Minimum Absolute Difference in BST" />
+    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Minimum Absolute Difference in BST" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -546,6 +546,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/leetCode/Ex17.java</url>
+          <line>40</line>
+          <properties class="leetCode.Ex17" method="DFS">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
