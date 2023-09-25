@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment=":hammer: Univalued Binary Tree">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetCode/Ex23.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment=":hammer: Flood Fill">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetCode/Ex24.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,20 +54,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ex23">
-    <configuration name="Ex19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCode.Ex19" />
-      <module name="coding_test_java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Ex24">
     <configuration name="Ex20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCode.Ex20" />
       <module name="coding_test_java.main" />
@@ -120,6 +107,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ex24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCode.Ex24" />
+      <module name="coding_test_java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="coding_test_study" />
       <method v="2">
@@ -135,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex24" />
         <item itemvalue="Application.Ex23" />
         <item itemvalue="Application.Ex22" />
         <item itemvalue="Application.Ex21" />
         <item itemvalue="Application.Ex20" />
-        <item itemvalue="Application.Ex19" />
       </list>
     </recent_temporary>
   </component>
@@ -495,11 +495,10 @@
       <option name="project" value="LOCAL" />
       <updated>1686873222511</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="k진수에서 소수 개수 구하기" />
     <MESSAGE value="[3차] 압축" />
     <MESSAGE value="[3차] n진수 게임" />
     <MESSAGE value="더 맵게" />
@@ -524,7 +523,8 @@
     <MESSAGE value=":hammer: Maximum Depth of N-ary Tree" />
     <MESSAGE value=":hammer: Find a Corresponding Node of a Binary Tree in a Clone of That Tree" />
     <MESSAGE value=":hammer: Univalued Binary Tree" />
-    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Univalued Binary Tree" />
+    <MESSAGE value=":hammer: Flood Fill" />
+    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Flood Fill" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
