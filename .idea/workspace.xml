@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment=":hammer: Deepest Leaves Sum">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetCode/Ex28.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment=":hammer: Sum of Nodes with Even-Valued Grandparent">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetCode/Ex29.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,20 +54,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ex28">
-    <configuration name="Ex24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCode.Ex24" />
-      <module name="coding_test_java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Ex29">
     <configuration name="Ex25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCode.Ex25" />
       <module name="coding_test_java.main" />
@@ -120,6 +107,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ex29" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCode.Ex29" />
+      <module name="coding_test_java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="coding_test_study" />
       <method v="2">
@@ -135,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex29" />
         <item itemvalue="Application.Ex28" />
         <item itemvalue="Application.Ex27" />
         <item itemvalue="Application.Ex26" />
         <item itemvalue="Application.Ex25" />
-        <item itemvalue="Application.Ex24" />
       </list>
     </recent_temporary>
   </component>
@@ -495,11 +495,10 @@
       <option name="project" value="LOCAL" />
       <updated>1686873222511</updated>
     </task>
-    <option name="localTasksCounter" value="145" />
+    <option name="localTasksCounter" value="146" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="오픈채팅방" />
     <MESSAGE value="땅따먹기" />
     <MESSAGE value="모음 사전" />
     <MESSAGE value="Same Tree&#10;아직 해결 못함" />
@@ -524,7 +523,8 @@
     <MESSAGE value=":hammer: Minimum Distance Between BST Nodes" />
     <MESSAGE value=":hammer: Cousins in Binary Tree" />
     <MESSAGE value=":hammer: Deepest Leaves Sum" />
-    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Deepest Leaves Sum" />
+    <MESSAGE value=":hammer: Sum of Nodes with Even-Valued Grandparent" />
+    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Sum of Nodes with Even-Valued Grandparent" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -555,15 +555,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/leetCode/Ex28.java</url>
-          <line>26</line>
-          <properties class="leetCode.Ex28" method="DFS">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
