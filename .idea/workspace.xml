@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment=":hammer: All Paths From Source to Target">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetCode/Ex30.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment=":hammer: Reverse Odd Levels of Binary Tree">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetCode/Ex31.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,20 +54,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ex30">
-    <configuration name="Ex26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCode.Ex26" />
-      <module name="coding_test_java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Ex31">
     <configuration name="Ex27" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCode.Ex27" />
       <module name="coding_test_java.main" />
@@ -120,6 +107,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ex31" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCode.Ex31" />
+      <module name="coding_test_java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="coding_test_study" />
       <method v="2">
@@ -135,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex31" />
         <item itemvalue="Application.Ex30" />
         <item itemvalue="Application.Ex29" />
         <item itemvalue="Application.Ex28" />
         <item itemvalue="Application.Ex27" />
-        <item itemvalue="Application.Ex26" />
       </list>
     </recent_temporary>
   </component>
@@ -495,11 +495,10 @@
       <option name="project" value="LOCAL" />
       <updated>1686873222511</updated>
     </task>
-    <option name="localTasksCounter" value="147" />
+    <option name="localTasksCounter" value="148" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="모음 사전" />
     <MESSAGE value="Same Tree&#10;아직 해결 못함" />
     <MESSAGE value="Same Tree" />
     <MESSAGE value=":hammer: Symmetric Tree" />
@@ -524,7 +523,8 @@
     <MESSAGE value=":hammer: Deepest Leaves Sum" />
     <MESSAGE value=":hammer: Sum of Nodes with Even-Valued Grandparent" />
     <MESSAGE value=":hammer: All Paths From Source to Target" />
-    <option name="LAST_COMMIT_MESSAGE" value=":hammer: All Paths From Source to Target" />
+    <MESSAGE value=":hammer: Reverse Odd Levels of Binary Tree" />
+    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Reverse Odd Levels of Binary Tree" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
