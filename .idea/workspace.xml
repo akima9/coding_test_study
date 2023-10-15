@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment=":hammer: 미로 탐색">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BOJ/Ex3.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment=":hammer: 토마토">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BOJ/Ex2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BOJ/Ex2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BOJ/Ex3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BOJ/Ex3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -496,11 +495,10 @@
       <option name="project" value="LOCAL" />
       <updated>1686873222511</updated>
     </task>
-    <option name="localTasksCounter" value="155" />
+    <option name="localTasksCounter" value="156" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":hammer: Count Complete Tree Nodes" />
     <MESSAGE value=":hammer: Invert Binary Tree" />
     <MESSAGE value=":hammer: Binary Tree Paths" />
     <MESSAGE value=":hammer: Sum of Left Leaves" />
@@ -525,7 +523,8 @@
     <MESSAGE value=":hammer: Lowest Common Ancestor of Deepest Leaves" />
     <MESSAGE value=":hammer: 그림" />
     <MESSAGE value=":hammer: 미로 탐색" />
-    <option name="LAST_COMMIT_MESSAGE" value=":hammer: 미로 탐색" />
+    <MESSAGE value=":hammer: 토마토" />
+    <option name="LAST_COMMIT_MESSAGE" value=":hammer: 토마토" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -565,6 +564,11 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/BOJ/Ex3.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,61 +1,49 @@
 package BOJ;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.Queue;
-import java.util.Scanner;
+import java.util.StringTokenizer;
 
 public class Ex3 {
     static int[] dx = {0, 1, 0, -1};
     static int[] dy = {1, 0, -1, 0};
 
-    private static class Point {
-        int x;
-        int y;
-
-        public Point(int x, int y) {
-            this.x = x;
-            this.y = y;
-        }
-    }
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int M = sc.nextInt();
-        int N = sc.nextInt();
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        int M = Integer.parseInt(st.nextToken());
+        int N = Integer.parseInt(st.nextToken());
         int[][] box = new int[N][M];
-        int[][] visit = new int[N][M];
+        Queue<int[]> queue = new LinkedList<>();
         for (int i = 0; i < N; i++) {
+            st = new StringTokenizer(br.readLine());
             for (int j = 0; j < M; j++) {
-                box[i][j] = sc.nextInt();
-            }
-        }
-
-        Queue<Point> queue = new LinkedList<>();
-        for (int i = 0; i < N; i++) {
-            for (int j = 0; j < M; j++) {
+                box[i][j] = Integer.parseInt(st.nextToken());
                 if (box[i][j] == 1) {
-                    queue.offer(new Point(i, j));
+                    queue.offer(new int[]{i, j});
                 }
             }
         }
-        int level = -1;
+
         while (!queue.isEmpty()) {
             int size = queue.size();
             for (int i = 0; i < size; i++) {
-                Point curPoint = queue.poll();
-                if (box[curPoint.x][curPoint.y] == 0) box[curPoint.x][curPoint.y] = 1;
-                visit[curPoint.x][curPoint.y] = 1;
+                int[] curPoint = queue.poll();
+                int x = curPoint[0];
+                int y = curPoint[1];
                 for (int j = 0; j < 4; j++) {
-                    if (curPoint.x + dx[j] < 0
-                            || curPoint.y + dy[j] < 0
-                            || curPoint.x + dx[j] >= N
-                            || curPoint.y + dy[j] >= M
-                            || visit[curPoint.x + dx[j]][curPoint.y + dy[j]] == 1
-                            || box[curPoint.x + dx[j]][curPoint.y + dy[j]] == -1
-                    ) continue;
-                    queue.offer(new Point(curPoint.x + dx[j], curPoint.y + dy[j]));
+                    int nx = x + dx[j];
+                    int ny = y + dy[j];
+                    if (nx < 0 || ny < 0 || nx >= N || ny >= M) continue;
+                    if (box[nx][ny] == 0) {
+                        box[nx][ny] = box[x][y] + 1;
+                        queue.offer(new int[]{nx, ny});
+                    }
                 }
             }
-            level++;
         }
 
         boolean flag = false;
@@ -68,7 +56,13 @@ public class Ex3 {
         if (flag) {
             System.out.println(-1);
         } else {
-            System.out.println(level);
+            int max = Integer.MIN_VALUE;
+            for (int i = 0; i < N; i++) {
+                for (int j = 0; j < M; j++) {
+                    max = Math.max(max, box[i][j]);
+                }
+            }
+            System.out.println(max - 1);
         }
     }
 }
