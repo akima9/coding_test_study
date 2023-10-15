@@ -30,12 +30,12 @@ public class Ex2 {
             }
         }
 
-        Queue<Point> queue = new LinkedList<>();
-        int answer = BFS(queue, N, M, map);
+        int answer = BFS(N, M, map);
         System.out.println(answer);
     }
 
-    private static int BFS(Queue<Point> queue, int N, int M, int[][] map) {
+    private static int BFS(int N, int M, int[][] map) {
+        Queue<Point> queue = new LinkedList<>();
         queue.offer(new Point(0, 0));
         int count = 1;
         while (!queue.isEmpty()) {

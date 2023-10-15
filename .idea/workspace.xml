@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment=":hammer: 그림">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BOJ/Ex2.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment=":hammer: 미로 탐색">
+      <change afterPath="$PROJECT_DIR$/src/main/java/BOJ/Ex3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BOJ/Ex2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BOJ/Ex2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ex2">
+  <component name="RunManager" selected="Application.Ex3">
     <configuration name="Ex1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ.Ex1" />
       <module name="coding_test_java.main" />
@@ -81,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex36" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCode.Ex36" />
+    <configuration name="Ex3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.Ex3" />
       <module name="coding_test_java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetCode.*" />
+          <option name="PATTERN" value="BOJ.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex3" />
         <item itemvalue="Application.Ex2" />
         <item itemvalue="Application.Ex1" />
         <item itemvalue="Application.Ex38" />
         <item itemvalue="Application.Ex37" />
-        <item itemvalue="Application.Ex36" />
       </list>
     </recent_temporary>
   </component>
@@ -495,11 +496,10 @@
       <option name="project" value="LOCAL" />
       <updated>1686873222511</updated>
     </task>
-    <option name="localTasksCounter" value="154" />
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":hammer: Binary Tree Postorder Traversal" />
     <MESSAGE value=":hammer: Count Complete Tree Nodes" />
     <MESSAGE value=":hammer: Invert Binary Tree" />
     <MESSAGE value=":hammer: Binary Tree Paths" />
@@ -524,7 +524,8 @@
     <MESSAGE value=":hammer: Max Area of Island" />
     <MESSAGE value=":hammer: Lowest Common Ancestor of Deepest Leaves" />
     <MESSAGE value=":hammer: 그림" />
-    <option name="LAST_COMMIT_MESSAGE" value=":hammer: 그림" />
+    <MESSAGE value=":hammer: 미로 탐색" />
+    <option name="LAST_COMMIT_MESSAGE" value=":hammer: 미로 탐색" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
