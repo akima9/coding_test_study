@@ -16,63 +16,68 @@ public class Ex4 {
         int R = Integer.parseInt(st.nextToken());
         int C = Integer.parseInt(st.nextToken());
         char[][] map = new char[R][C];
-        Queue<int[]> queue = new LinkedList<>();
+        int[][] visit = new int[R][C];
+        int[][] burn = new int[R][C];
+        Queue<int[]> person = new LinkedList<>();
+        Queue<int[]> fire = new LinkedList<>();
         for (int i = 0; i < R; i++) {
             String str = br.readLine();
             for (int j = 0; j < C; j++) {
                 map[i][j] = str.charAt(j);
-                if (map[i][j] == 'J' || map[i][j] == 'F') {
-                    queue.offer(new int[]{i, j});
+                if (map[i][j] == 'J') {
+                    person.offer(new int[]{i, j});
+                    visit[i][j] = 1;
+                } else if (map[i][j] == 'F') {
+                    fire.offer(new int[]{i, j});
+                    burn[i][j] = 1;
+                } else if (map[i][j] == '#') {
+                    visit[i][j] = -1;
+                    burn[i][j] = -1;
                 }
             }
         }
-        int result = BFS(queue, R, C, map);
-        if (result > 0) {
-            System.out.println(result + 1);
-        } else {
-            System.out.println("IMPOSSIBLE");
-        }
-    }
 
-    private static int BFS(Queue<int[]> queue, int R, int C, char[][] map) {
-        int level = 0;
-        while (!queue.isEmpty()) {
-            int size = queue.size();
+        while (!fire.isEmpty()) {
+            int size = fire.size();
             for (int i = 0; i < size; i++) {
-                int[] curPoint = queue.poll();
+                int[] curPoint = fire.poll();
                 int x = curPoint[0];
                 int y = curPoint[1];
 
-                if (x == 0 || y == 0 || x == R - 1 || y == C - 1) {
-                    return level;
+                for (int j = 0; j < 4; j++) {
+                    int nx = x + dx[j];
+                    int ny = y + dy[j];
+                    if (nx < 0 || ny < 0 || nx >= R || ny >= C || burn[nx][ny] != 0) continue;
+                    burn[nx][ny] = burn[x][y] + 1;
+                    fire.offer(new int[]{nx, ny});
                 }
-
-                if (map[x][y] == 'J') {
-                    map[x][y] = '.';
-                    for (int j = 0; j < 4; j++) {
-                        int nx = x + dx[j];
-                        int ny = y + dy[j];
-                        if (nx < 0 || ny < 0 || nx >= R || ny >= C || map[nx][ny] != '.') continue;
-                        queue.offer(new int[]{nx, ny});
-                        map[nx][ny] = 'J';
-                    }
-                } else if (map[x][y] == 'F') {
-                    for (int j = 0; j < 4; j++) {
-                        int nx = x + dx[j];
-                        int ny = y + dy[j];
-                        if (nx < 0 || ny < 0 || nx >= R || ny >= C || map[nx][ny] != '.') continue;
-                        if (map[nx][ny] == 'J') {
-                            return 0;
-                        }
-                        queue.offer(new int[]{nx, ny});
-                        map[nx][ny] = 'F';
-                    }
-                }
-
             }
-            level++;
         }
-        return 0;
+
+        while (!person.isEmpty()) {
+            int size = person.size();
+            for (int i = 0; i < size; i++) {
+                int[] curPoint = person.poll();
+                int x = curPoint[0];
+                int y = curPoint[1];
+
+                for (int j = 0; j < 4; j++) {
+                    int nx = x + dx[j];
+                    int ny = y + dy[j];
+
+                    if (nx < 0 || ny < 0 || nx >= R || ny >= C) {
+                        System.out.println(visit[x][y]);
+                        return;
+                    }
+
+                    if (burn[nx][ny] <= visit[x][y] + 1 || visit[nx][ny] != 0) continue;
+                    visit[nx][ny] = visit[x][y] + 1;
+                    person.offer(new int[]{nx, ny});
+                }
+            }
+        }
+
+        System.out.println("IMPOSSIBLE");
     }
 }
 //4 4
@@ -82,9 +87,9 @@ public class Ex4 {
 //#..#
 //5 5
 //#####
-//#JF.#
+//J..F#
 //#...#
-//##..#
+//#...#
 //##..#
 //4 4
 //####
