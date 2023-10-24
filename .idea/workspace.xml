@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment=":hammer: 토마토">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BOJ/Ex9.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment=":hammer: 나이트의 이동">
+      <change afterPath="$PROJECT_DIR$/src/main/java/BOJ/Ex10.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,9 +53,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ex9">
-    <configuration name="Ex5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.Ex5" />
+  <component name="RunManager" selected="Application.Ex10">
+    <configuration name="Ex10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.Ex10" />
       <module name="coding_test_java.main" />
       <extension name="coverage">
         <pattern>
@@ -134,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex10" />
         <item itemvalue="Application.Ex9" />
         <item itemvalue="Application.Ex8" />
         <item itemvalue="Application.Ex7" />
         <item itemvalue="Application.Ex6" />
-        <item itemvalue="Application.Ex5" />
       </list>
     </recent_temporary>
   </component>
@@ -494,11 +494,10 @@
       <option name="project" value="LOCAL" />
       <updated>1686873222511</updated>
     </task>
-    <option name="localTasksCounter" value="164" />
+    <option name="localTasksCounter" value="165" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":hammer: Find Mode in Binary Search Tree" />
     <MESSAGE value=":hammer: Minimum Absolute Difference in BST" />
     <MESSAGE value=":hammer: Maximum Depth of N-ary Tree" />
     <MESSAGE value=":hammer: Find a Corresponding Node of a Binary Tree in a Clone of That Tree" />
@@ -523,7 +522,8 @@
     <MESSAGE value=":hammer: 유기농 배추" />
     <MESSAGE value=":hammer: 적록색약" />
     <MESSAGE value=":hammer: 토마토" />
-    <option name="LAST_COMMIT_MESSAGE" value=":hammer: 토마토" />
+    <MESSAGE value=":hammer: 나이트의 이동" />
+    <option name="LAST_COMMIT_MESSAGE" value=":hammer: 나이트의 이동" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -573,6 +573,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/BOJ/Ex8.java</url>
           <line>43</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/BOJ/Ex10.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/BOJ/Ex10.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
