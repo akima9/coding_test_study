@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment=":hammer: 불">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BOJ/Ex11.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment=":hammer: 벽 부수고 이동하기">
+      <change beforePath="$PROJECT_DIR$/src/main/java/BOJ/Ex11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BOJ/Ex11.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -494,11 +494,10 @@
       <option name="project" value="LOCAL" />
       <updated>1686873222511</updated>
     </task>
-    <option name="localTasksCounter" value="167" />
+    <option name="localTasksCounter" value="168" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":hammer: Minimum Absolute Difference in BST" />
     <MESSAGE value=":hammer: Maximum Depth of N-ary Tree" />
     <MESSAGE value=":hammer: Find a Corresponding Node of a Binary Tree in a Clone of That Tree" />
     <MESSAGE value=":hammer: Univalued Binary Tree" />
@@ -523,7 +522,8 @@
     <MESSAGE value=":hammer: 토마토" />
     <MESSAGE value=":hammer: 나이트의 이동" />
     <MESSAGE value=":hammer: 불" />
-    <option name="LAST_COMMIT_MESSAGE" value=":hammer: 불" />
+    <MESSAGE value=":hammer: 벽 부수고 이동하기" />
+    <option name="LAST_COMMIT_MESSAGE" value=":hammer: 벽 부수고 이동하기" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -583,11 +583,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/BOJ/Ex10.java</url>
           <line>75</line>
           <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/BOJ/Ex11.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
