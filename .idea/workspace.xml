@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment=":hammer: 벽 부수고 이동하기">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BOJ/Ex12.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment=":hammer: 영역 구하기">
+      <change afterPath="$PROJECT_DIR$/src/main/java/BOJ/Ex13.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +54,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ex12">
+  <component name="RunManager" selected="Application.Ex13">
     <configuration name="Ex10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ.Ex10" />
       <module name="coding_test_java.main" />
@@ -94,8 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.Ex8" />
+    <configuration name="Ex13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.Ex13" />
       <module name="coding_test_java.main" />
       <extension name="coverage">
         <pattern>
@@ -135,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex13" />
         <item itemvalue="Application.Ex12" />
         <item itemvalue="Application.Ex11" />
         <item itemvalue="Application.Ex10" />
         <item itemvalue="Application.Ex9" />
-        <item itemvalue="Application.Ex8" />
       </list>
     </recent_temporary>
   </component>
@@ -495,11 +495,10 @@
       <option name="project" value="LOCAL" />
       <updated>1686873222511</updated>
     </task>
-    <option name="localTasksCounter" value="170" />
+    <option name="localTasksCounter" value="171" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":hammer: Maximum Depth of N-ary Tree" />
     <MESSAGE value=":hammer: Find a Corresponding Node of a Binary Tree in a Clone of That Tree" />
     <MESSAGE value=":hammer: Univalued Binary Tree" />
     <MESSAGE value=":hammer: Flood Fill" />
@@ -524,7 +523,8 @@
     <MESSAGE value=":hammer: 나이트의 이동" />
     <MESSAGE value=":hammer: 불" />
     <MESSAGE value=":hammer: 벽 부수고 이동하기" />
-    <option name="LAST_COMMIT_MESSAGE" value=":hammer: 벽 부수고 이동하기" />
+    <MESSAGE value=":hammer: 영역 구하기" />
+    <option name="LAST_COMMIT_MESSAGE" value=":hammer: 영역 구하기" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -584,6 +584,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/BOJ/Ex10.java</url>
           <line>75</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/BOJ/Ex13.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
