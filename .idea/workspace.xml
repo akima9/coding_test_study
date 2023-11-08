@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment=":hammer: 안전영역">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetCode/Ex39.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetCode/Ex40.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BOJ/Ex17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,20 +54,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ex40">
-    <configuration name="Ex14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.Ex14" />
-      <module name="coding_test_java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BOJ.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Ex17">
     <configuration name="Ex15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ.Ex15" />
       <module name="coding_test_java.main" />
@@ -83,6 +70,19 @@
     </configuration>
     <configuration name="Ex16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ.Ex16" />
+      <module name="coding_test_java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BOJ.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.Ex17" />
       <module name="coding_test_java.main" />
       <extension name="coverage">
         <pattern>
@@ -135,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex17" />
         <item itemvalue="Application.Ex40" />
         <item itemvalue="Application.Ex39" />
         <item itemvalue="Application.Ex16" />
         <item itemvalue="Application.Ex15" />
-        <item itemvalue="Application.Ex14" />
       </list>
     </recent_temporary>
   </component>
@@ -589,11 +589,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/BOJ/Ex13.java</url>
           <line>36</line>
           <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/BOJ/Ex16.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/BOJ/Ex16.java</url>
