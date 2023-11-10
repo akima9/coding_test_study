@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment=":hammer: 동전 0">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BOJ/Ex18.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment=":hammer: 회의실 배정">
+      <change afterPath="$PROJECT_DIR$/src/main/java/BOJ/Ex19.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +54,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ex18">
+  <component name="RunManager" selected="Application.Ex19">
     <configuration name="Ex17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ.Ex17" />
       <module name="coding_test_java.main" />
@@ -94,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex39" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCode.Ex39" />
+    <configuration name="Ex19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.Ex19" />
       <module name="coding_test_java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetCode.*" />
+          <option name="PATTERN" value="BOJ.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex19" />
         <item itemvalue="Application.Ex18 (1)" />
         <item itemvalue="Application.Ex18" />
         <item itemvalue="Application.Ex17" />
         <item itemvalue="Application.Ex40" />
-        <item itemvalue="Application.Ex39" />
       </list>
     </recent_temporary>
   </component>
@@ -495,11 +495,10 @@
       <option name="project" value="LOCAL" />
       <updated>1686873222511</updated>
     </task>
-    <option name="localTasksCounter" value="175" />
+    <option name="localTasksCounter" value="176" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":hammer: Minimum Distance Between BST Nodes" />
     <MESSAGE value=":hammer: Cousins in Binary Tree" />
     <MESSAGE value=":hammer: Deepest Leaves Sum" />
     <MESSAGE value=":hammer: Sum of Nodes with Even-Valued Grandparent" />
@@ -524,7 +523,8 @@
     <MESSAGE value=":hammer: 스타트링크" />
     <MESSAGE value=":hammer: 안전영역" />
     <MESSAGE value=":hammer: 동전 0" />
-    <option name="LAST_COMMIT_MESSAGE" value=":hammer: 동전 0" />
+    <MESSAGE value=":hammer: 회의실 배정" />
+    <option name="LAST_COMMIT_MESSAGE" value=":hammer: 회의실 배정" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
