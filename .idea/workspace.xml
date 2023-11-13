@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment=":hammer: 로프">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BOJ/Ex20.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment=":hammer: 보물">
+      <change afterPath="$PROJECT_DIR$/src/main/java/BOJ/Ex21.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,20 +54,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ex20">
-    <configuration name="Ex17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.Ex17" />
-      <module name="coding_test_java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BOJ.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Ex21">
     <configuration name="Ex18 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ.Ex18" />
       <module name="coding_test_java.main" />
@@ -120,6 +107,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ex21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.Ex21" />
+      <module name="coding_test_java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BOJ.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="coding_test_study" />
       <method v="2">
@@ -135,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex21" />
         <item itemvalue="Application.Ex20" />
         <item itemvalue="Application.Ex19" />
         <item itemvalue="Application.Ex18 (1)" />
         <item itemvalue="Application.Ex18" />
-        <item itemvalue="Application.Ex17" />
       </list>
     </recent_temporary>
   </component>
@@ -495,11 +495,10 @@
       <option name="project" value="LOCAL" />
       <updated>1686873222511</updated>
     </task>
-    <option name="localTasksCounter" value="177" />
+    <option name="localTasksCounter" value="178" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":hammer: Deepest Leaves Sum" />
     <MESSAGE value=":hammer: Sum of Nodes with Even-Valued Grandparent" />
     <MESSAGE value=":hammer: All Paths From Source to Target" />
     <MESSAGE value=":hammer: Reverse Odd Levels of Binary Tree" />
@@ -524,7 +523,8 @@
     <MESSAGE value=":hammer: 동전 0" />
     <MESSAGE value=":hammer: 회의실 배정" />
     <MESSAGE value=":hammer: 로프" />
-    <option name="LAST_COMMIT_MESSAGE" value=":hammer: 로프" />
+    <MESSAGE value=":hammer: 보물" />
+    <option name="LAST_COMMIT_MESSAGE" value=":hammer: 보물" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
