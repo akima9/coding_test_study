@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment=":hammer: 보물">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BOJ/Ex21.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment=":hammer: ATM">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -495,11 +494,10 @@
       <option name="project" value="LOCAL" />
       <updated>1686873222511</updated>
     </task>
-    <option name="localTasksCounter" value="178" />
+    <option name="localTasksCounter" value="179" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":hammer: Sum of Nodes with Even-Valued Grandparent" />
     <MESSAGE value=":hammer: All Paths From Source to Target" />
     <MESSAGE value=":hammer: Reverse Odd Levels of Binary Tree" />
     <MESSAGE value=":hammer: Count Good Nodes in Binary Tree" />
@@ -524,7 +522,8 @@
     <MESSAGE value=":hammer: 회의실 배정" />
     <MESSAGE value=":hammer: 로프" />
     <MESSAGE value=":hammer: 보물" />
-    <option name="LAST_COMMIT_MESSAGE" value=":hammer: 보물" />
+    <MESSAGE value=":hammer: ATM" />
+    <option name="LAST_COMMIT_MESSAGE" value=":hammer: ATM" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
