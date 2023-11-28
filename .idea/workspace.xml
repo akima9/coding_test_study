@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment=":hammer: Maximum Sum With Exactly K Elements">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetCode/Ex45.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetCode/Ex46.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BOJ/binarySearch/Ex001.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,13 +54,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Ex46">
-    <configuration name="Ex42" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCode.Ex42" />
+  <component name="RunManager" selected="Application.Ex001">
+    <configuration name="Ex001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ.binarySearch.Ex001" />
       <module name="coding_test_java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetCode.*" />
+          <option name="PATTERN" value="BOJ.binarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex001" />
         <item itemvalue="Application.Ex46" />
         <item itemvalue="Application.Ex45" />
         <item itemvalue="Application.Ex44" />
         <item itemvalue="Application.Ex43" />
-        <item itemvalue="Application.Ex42" />
       </list>
     </recent_temporary>
   </component>
