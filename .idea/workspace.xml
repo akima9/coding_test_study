@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment=":hammer: 좌표압축">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetCode/binarySearch/Ex001.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment=":hammer: Count of Matches in Tournament">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetCode/binarySearch/Ex002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetCode/binarySearch/Ex003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetCode/binarySearch/Ex004.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,46 +56,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.leetCode.binarySearch.Ex001">
-    <configuration name="Ex001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.binarySearch.Ex001" />
-      <module name="coding_test_java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BOJ.binarySearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.binarySearch.Ex002" />
-      <module name="coding_test_java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BOJ.binarySearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ.binarySearch.Ex003" />
-      <module name="coding_test_java.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BOJ.binarySearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.leetCode.binarySearch.Ex004">
     <configuration name="Ex004" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ.binarySearch.Ex004" />
       <module name="coding_test_java.main" />
@@ -120,6 +83,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="leetCode.binarySearch.Ex002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCode.binarySearch.Ex002" />
+      <module name="coding_test_java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetCode.binarySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetCode.binarySearch.Ex003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCode.binarySearch.Ex003" />
+      <module name="coding_test_java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetCode.binarySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetCode.binarySearch.Ex004" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCode.binarySearch.Ex004" />
+      <module name="coding_test_java.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetCode.binarySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="coding_test_study" />
       <method v="2">
@@ -135,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.leetCode.binarySearch.Ex004" />
+        <item itemvalue="Application.leetCode.binarySearch.Ex003" />
+        <item itemvalue="Application.leetCode.binarySearch.Ex002" />
         <item itemvalue="Application.leetCode.binarySearch.Ex001" />
         <item itemvalue="Application.Ex004" />
-        <item itemvalue="Application.Ex003" />
-        <item itemvalue="Application.Ex002" />
-        <item itemvalue="Application.Ex001" />
       </list>
     </recent_temporary>
   </component>
@@ -495,11 +497,10 @@
       <option name="project" value="LOCAL" />
       <updated>1686873222511</updated>
     </task>
-    <option name="localTasksCounter" value="187" />
+    <option name="localTasksCounter" value="188" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":hammer: 그림" />
     <MESSAGE value=":hammer: 미로 탐색" />
     <MESSAGE value=":hammer: 숨바꼭질" />
     <MESSAGE value=":hammer: 유기농 배추" />
@@ -524,7 +525,8 @@
     <MESSAGE value=":hammer: 수 찾기" />
     <MESSAGE value=":hammer: 숫자카드2" />
     <MESSAGE value=":hammer: 좌표압축" />
-    <option name="LAST_COMMIT_MESSAGE" value=":hammer: 좌표압축" />
+    <MESSAGE value=":hammer: Count of Matches in Tournament" />
+    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Count of Matches in Tournament" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
