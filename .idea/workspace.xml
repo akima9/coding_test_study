@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment=":hammer: Kth Missing Positive Number">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetCode/stack/Ex001.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment=":hammer: Baseball Game">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetCode/stack/Ex002.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +47,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.coding_test_study [:Ex001.main()].executor": "Run",
+    "Gradle.coding_test_study [:Ex002.main()].executor": "Run",
     "Gradle.coding_test_study [:Ex004.main()].executor": "Debug",
     "Gradle.coding_test_study [:Ex005.main()].executor": "Debug",
     "Gradle.coding_test_study [:Ex006.main()].executor": "Run",
@@ -62,7 +63,7 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="애플리케이션.Ex001">
+  <component name="RunManager" selected="애플리케이션.Ex002">
     <configuration name="Ex001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCode.stack.Ex001" />
       <module name="coding_test_java.main" />
@@ -76,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex006" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCode.binarySearch.Ex006" />
+    <configuration name="Ex002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCode.stack.Ex002" />
       <module name="coding_test_java.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetCode.binarySearch.*" />
+          <option name="PATTERN" value="leetCode.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Ex002" />
         <item itemvalue="애플리케이션.Ex001" />
         <item itemvalue="애플리케이션.Ex009" />
         <item itemvalue="애플리케이션.Ex008" />
         <item itemvalue="애플리케이션.Ex007" />
-        <item itemvalue="애플리케이션.Ex006" />
       </list>
     </recent_temporary>
   </component>
@@ -510,11 +511,10 @@
       <option name="project" value="LOCAL" />
       <updated>1686873222511</updated>
     </task>
-    <option name="localTasksCounter" value="191" />
+    <option name="localTasksCounter" value="192" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":hammer: 적록색약" />
     <MESSAGE value=":hammer: 토마토" />
     <MESSAGE value=":hammer: 나이트의 이동" />
     <MESSAGE value=":hammer: 불" />
@@ -539,7 +539,8 @@
     <MESSAGE value=":hammer: Search Insert Position" />
     <MESSAGE value=":hammer: Binary Search" />
     <MESSAGE value=":hammer: Kth Missing Positive Number" />
-    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Kth Missing Positive Number" />
+    <MESSAGE value=":hammer: Baseball Game" />
+    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Baseball Game" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
