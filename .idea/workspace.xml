@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment=":hammer: Search Insert Position">
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment=":hammer: Binary Search">
       <change afterPath="$PROJECT_DIR$/src/main/java/leetCode/binarySearch/Ex005.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetCode/binarySearch/Ex006.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetCode/binarySearch/Ex007.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetCode/binarySearch/Ex008.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetCode/binarySearch/Ex009.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +52,9 @@
     "Gradle.coding_test_study [:Ex004.main()].executor": "Debug",
     "Gradle.coding_test_study [:Ex005.main()].executor": "Debug",
     "Gradle.coding_test_study [:Ex006.main()].executor": "Run",
+    "Gradle.coding_test_study [:Ex007.main()].executor": "Debug",
+    "Gradle.coding_test_study [:Ex008.main()].executor": "Debug",
+    "Gradle.coding_test_study [:Ex009.main()].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
@@ -59,7 +64,7 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="애플리케이션.Ex006">
+  <component name="RunManager" selected="애플리케이션.Ex009">
     <configuration name="Ex005" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetCode.binarySearch.Ex005" />
       <module name="coding_test_java.main" />
@@ -86,8 +91,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetCode.binarySearch.Ex002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCode.binarySearch.Ex002" />
+    <configuration name="Ex007" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCode.binarySearch.Ex007" />
       <module name="coding_test_java.main" />
       <extension name="coverage">
         <pattern>
@@ -99,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetCode.binarySearch.Ex003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCode.binarySearch.Ex003" />
+    <configuration name="Ex008" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCode.binarySearch.Ex008" />
       <module name="coding_test_java.main" />
       <extension name="coverage">
         <pattern>
@@ -112,8 +117,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetCode.binarySearch.Ex004" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetCode.binarySearch.Ex004" />
+    <configuration name="Ex009" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetCode.binarySearch.Ex009" />
       <module name="coding_test_java.main" />
       <extension name="coverage">
         <pattern>
@@ -140,6 +145,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Ex009" />
+        <item itemvalue="애플리케이션.Ex008" />
+        <item itemvalue="애플리케이션.Ex007" />
         <item itemvalue="애플리케이션.Ex006" />
         <item itemvalue="애플리케이션.Ex005" />
       </list>
@@ -504,11 +512,10 @@
       <option name="project" value="LOCAL" />
       <updated>1686873222511</updated>
     </task>
-    <option name="localTasksCounter" value="189" />
+    <option name="localTasksCounter" value="190" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":hammer: 숨바꼭질" />
     <MESSAGE value=":hammer: 유기농 배추" />
     <MESSAGE value=":hammer: 적록색약" />
     <MESSAGE value=":hammer: 토마토" />
@@ -533,7 +540,8 @@
     <MESSAGE value=":hammer: 좌표압축" />
     <MESSAGE value=":hammer: Count of Matches in Tournament" />
     <MESSAGE value=":hammer: Search Insert Position" />
-    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Search Insert Position" />
+    <MESSAGE value=":hammer: Binary Search" />
+    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Binary Search" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -610,9 +618,9 @@
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leetCode/binarySearch/Ex006.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/leetCode/binarySearch/Ex008.java</url>
           <line>11</line>
-          <option name="timeStamp" value="31" />
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
