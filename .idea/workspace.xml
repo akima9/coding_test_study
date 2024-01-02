@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment=":hammer: Baseball Game">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetCode/stack/Ex002.java" afterDir="false" />
+    <list default="true" id="20b10d6e-b1d2-4f5f-a13e-b2aed894aa66" name="변경" comment=":hammer: Valid Parentheses">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetCode/stack/Ex002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetCode/stack/Ex002.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -511,11 +511,10 @@
       <option name="project" value="LOCAL" />
       <updated>1686873222511</updated>
     </task>
-    <option name="localTasksCounter" value="192" />
+    <option name="localTasksCounter" value="193" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=":hammer: 토마토" />
     <MESSAGE value=":hammer: 나이트의 이동" />
     <MESSAGE value=":hammer: 불" />
     <MESSAGE value=":hammer: 벽 부수고 이동하기" />
@@ -540,7 +539,8 @@
     <MESSAGE value=":hammer: Binary Search" />
     <MESSAGE value=":hammer: Kth Missing Positive Number" />
     <MESSAGE value=":hammer: Baseball Game" />
-    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Baseball Game" />
+    <MESSAGE value=":hammer: Valid Parentheses" />
+    <option name="LAST_COMMIT_MESSAGE" value=":hammer: Valid Parentheses" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
